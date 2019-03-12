@@ -7,7 +7,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib
 
-
+#ukuk
 # This function visualizes filters in matrix A. Each column of A is a
 # filter. We will reshape each column into a square image and visualizes
 # on each cell of the visualization panel.
