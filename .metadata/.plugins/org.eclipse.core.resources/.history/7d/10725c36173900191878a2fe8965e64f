@@ -1,0 +1,13 @@
+'''
+Created on Feb 25, 2019
+
+@author: BAO
+'''
+class A:
+    def __init__(self, x, y):
+       self.a = "hello"
+    def method1(self,var):
+        print(self.a,' ', var)
+a = A("troi", "du")
+a.method1("bitch")
+    

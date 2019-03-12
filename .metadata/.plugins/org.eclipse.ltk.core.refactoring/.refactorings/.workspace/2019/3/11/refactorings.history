@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MergeSort&apos; to &apos;Chap5&apos;" description="Rename resource &apos;MergeSort&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/MergeSort" name="Chap5" stamp="1552413544909" updateReferences="true"/>
+</session>

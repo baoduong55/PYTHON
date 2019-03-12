@@ -1,0 +1,69 @@
+'''
+Created on Jan 28, 2019
+
+@author: BAO
+'''
+import numpy as np
+import random
+from numpy.core._multiarray_umath import concatenate
+arr = random.sample(range(100), 10)
+#arr = np.array([ 0, 12, 16,  0,  7, 17, 17,  5])
+def quicksort(arr, first, last):
+    if first >= last:
+        return
+    f = first
+    l = last
+    mid = (last + first)//2
+    while f < l:
+        while arr[f] < arr[mid]:
+            f += 1
+        while arr[l] > arr[mid]:
+            l -= 1
+        if f <= l:
+           arr[f], arr[l] = arr[l], arr[f]
+           f += 1
+           l -= 1
+    quicksort(arr, first, l)
+    quicksort(arr, f, last)
+    return
+def maininsersort(ar):
+    result = np.array([ar[0]])
+    def insersort(ar, result):
+        for a in range(1,len(ar)):
+            for b in range(len(result)):
+                if ar[a] <= result[b]:
+                    result = np.insert(result, b, ar[a])
+                    break
+                if b == len(result) - 1:
+                    result = np.append(result, ar[a])
+        return result
+    return insersort(ar, result)
+def quicksortB1(ar, order):
+    # order: so dau tien, thu 2, thu 3,... cua tung phan tu
+    classinput = [[],[],[],[],[],[],[],[],[],[],[]]
+    # lap tung phan tu cua array
+    for i in range(len(ar)):
+        # dieu kien dung
+        if order >= len(str(ar[i])):
+            classinput[0].append(ar[i])        
+        # loop tu 1 - 9 de phan class
+        for j in range(0,9):
+            # phan class
+            if str(ar[i])[order]== str(j):                                                   
+                classinput[j].append(ar[i])
+                break
+    # rap lai 9 class
+    for i in range(1,9):
+        ar = concatenate(ar,classinput[i]) 
+    order += 1
+    quicksortB1(ar, order)
+    return 
+print(arr)
+#quicksort(arr, 0, len(arr)-1)
+#print(maininsersort(arr))
+quicksortB1(arr, 0)
+print("end")      
+           
+                
+
+    

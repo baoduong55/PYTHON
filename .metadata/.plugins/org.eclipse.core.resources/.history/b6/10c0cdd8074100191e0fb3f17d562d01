@@ -1,0 +1,48 @@
+'''
+Created on Mar 5, 2019
+
+@author: BAO
+'''
+import numpy as np
+np.random.seed(10)
+A = np.random.choice(100, 10, replace = False)
+def Merge(X,Y):
+    result = []
+    x = 0
+    y = 0
+    while x < len(X):
+        while y < len(Y):
+            if X[x] < Y[y]:                
+                print("ji")
+                result.append(X[x])
+                print("da")
+                x += 1
+                if x == len(X):
+                    for j in range(y, len(Y)):
+                        print("da")
+                        result.append(Y[j])
+                        print("x")
+                        y = len(Y)                             
+            else:
+                print("da")
+                result.append(Y[y])
+                print("da")
+                y += 1              
+                if y == len(Y):
+                    for j in range(x, len(X)):
+                        print("da")
+                        result.append(X[j])
+                        print("x")
+                        x = len(X)
+    return result     
+def MergeSort(A):
+    if len(A) == 1:
+        return A
+    else:
+        resulta = Merge(MergeSort(A[:len(A)//2]),  MergeSort(A[len(A)//2:]))
+        return resulta
+     
+print(A)
+print(MergeSort(A))   
+   
+    

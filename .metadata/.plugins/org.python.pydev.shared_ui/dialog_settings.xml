@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.python.pydev.core.preferences.CheckDefaultPreferencesDialog">
+		<item value="561" key="width"/>
+		<item value="1000" key="x"/>
+		<item value="356" key="y"/>
+		<item value="509" key="height"/>
+	</section>
+	<section name="org.python.pydev.debug.ui.actions.RunEditorAsCustomUnitTestAction">
+		<item value="531" key="width"/>
+		<item value="1015" key="x"/>
+		<item value="343" key="y"/>
+		<item value="528" key="height"/>
+	</section>
+</section>

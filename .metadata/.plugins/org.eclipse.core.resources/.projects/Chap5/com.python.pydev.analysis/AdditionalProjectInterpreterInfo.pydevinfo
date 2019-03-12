@@ -1,0 +1,18 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\Users\BAO\Documents\PyWorkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Chap5\com.python.pydev.analysis\v2_indexcache
+Tets|1551984355673813000|C:\Users\BAO\Documents\PyWorkspace\Chap5\Tets.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+2=Tets
+1=C:\Users\BAO\Documents\PyWorkspace\Chap5\Tets.py
+-- END DICTIONARY
+-- START TREE 1
+2
+A|1|A!1^8#1*19@
+mer|2|Merge!1^9#5*18@MergeSort!1^29#5*18@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE
