@@ -6,4 +6,8 @@
 			<item value="org.python.pydev.PythonCategory"/>
 		</list>
 	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="937" key="DIALOG_X_ORIGIN"/>
+		<item value="454" key="DIALOG_Y_ORIGIN"/>
+	</section>
 </section>

@@ -5170,3 +5170,1258 @@ java.lang.RuntimeException: Unhandled: ExtSlice[dims=[Slice[lower=null, upper=nu
 	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
 	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
 	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:171)
+
+!ENTRY org.python.pydev.shared_core 1 1 2019-03-13 02:13:07.481
+!MESSAGE No existing console history at: C:\Users\BAO\Documents\PyWorkspace\.metadata\.plugins\org.python.pydev.shared_interactive_console\history.py
+!STACK 0
+java.io.FileNotFoundException: C:\Users\BAO\Documents\PyWorkspace\.metadata\.plugins\org.python.pydev.shared_interactive_console\history.py (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileReader.<init>(FileReader.java:75)
+	at org.python.pydev.shared_interactive_console.console.ScriptConsoleGlobalHistory.load(ScriptConsoleGlobalHistory.java:96)
+	at org.python.pydev.shared_interactive_console.console.ScriptConsoleGlobalHistory.<init>(ScriptConsoleGlobalHistory.java:45)
+	at org.python.pydev.shared_interactive_console.console.ScriptConsoleGlobalHistory.<clinit>(ScriptConsoleGlobalHistory.java:37)
+	at org.python.pydev.shared_interactive_console.console.ScriptConsoleHistory.<init>(ScriptConsoleHistory.java:56)
+	at org.python.pydev.shared_interactive_console.console.ui.ScriptConsole.<init>(ScriptConsole.java:210)
+	at org.python.pydev.debug.newconsole.PydevConsole.<init>(PydevConsole.java:84)
+	at org.python.pydev.debug.newconsole.PydevDebugConsole.<init>(PydevDebugConsole.java:29)
+	at org.python.pydev.debug.newconsole.PydevConsoleFactory.createDebugConsole(PydevConsoleFactory.java:285)
+	at org.python.pydev.debug.newconsole.PydevConsoleFactory.createDebugConsole(PydevConsoleFactory.java:260)
+	at org.python.pydev.debug.console.PromptOverlay.<init>(PromptOverlay.java:77)
+	at org.python.pydev.debug.console.PromptOverlayConsolePageParticipant.init(PromptOverlayConsolePageParticipant.java:48)
+	at org.eclipse.ui.internal.console.ConsoleView$3.run(ConsoleView.java:341)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:338)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:378)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:718)
+	at org.eclipse.ui.internal.console.ConsoleView.lambda$0(ConsoleView.java:412)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-13 02:42:10.264
+!MESSAGE Unhandled: ExtSlice[dims=[Slice[lower=null, upper=null, step=null], Index[value=Name[id=k, ctx=Load, reserved=false]]]]
+!STACK 0
+java.lang.RuntimeException: Unhandled: ExtSlice[dims=[Slice[lower=null, upper=null, step=null], Index[value=Name[id=k, ctx=Load, reserved=false]]]]
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.unhandled_node(MakeAstValidForPrettyPrintingVisitor.java:106)
+	at org.python.pydev.parser.jython.ast.VisitorBase.visitExtSlice(VisitorBase.java:351)
+	at org.python.pydev.parser.jython.ast.ExtSlice.accept(ExtSlice.java:80)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitSubscript(MakeAstValidForPrettyPrintingVisitor.java:944)
+	at org.python.pydev.parser.jython.ast.Subscript.accept(Subscript.java:87)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.handleArguments(MakeAstValidForPrettyPrintingVisitor.java:1078)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitCall(MakeAstValidForPrettyPrintingVisitor.java:623)
+	at org.python.pydev.parser.jython.ast.Call.accept(Call.java:123)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.handleArguments(MakeAstValidForPrettyPrintingVisitor.java:1078)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitCall(MakeAstValidForPrettyPrintingVisitor.java:623)
+	at org.python.pydev.parser.jython.ast.Call.accept(Call.java:123)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitAssign(MakeAstValidForPrettyPrintingVisitor.java:185)
+	at org.python.pydev.parser.jython.ast.Assign.accept(Assign.java:97)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitFor(MakeAstValidForPrettyPrintingVisitor.java:458)
+	at org.python.pydev.parser.jython.ast.For.accept(For.java:112)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitFor(MakeAstValidForPrettyPrintingVisitor.java:458)
+	at org.python.pydev.parser.jython.ast.For.accept(For.java:112)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitFunctionDef(MakeAstValidForPrettyPrintingVisitor.java:873)
+	at org.python.pydev.parser.jython.ast.FunctionDef.accept(FunctionDef.java:131)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.makeValid(MakeAstValidForPrettyPrintingVisitor.java:172)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:133)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:171)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-13 02:42:38.747
+!MESSAGE Unhandled: ExtSlice[dims=[Slice[lower=null, upper=null, step=null], Index[value=Name[id=k, ctx=Load, reserved=false]]]]
+!STACK 0
+java.lang.RuntimeException: Unhandled: ExtSlice[dims=[Slice[lower=null, upper=null, step=null], Index[value=Name[id=k, ctx=Load, reserved=false]]]]
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.unhandled_node(MakeAstValidForPrettyPrintingVisitor.java:106)
+	at org.python.pydev.parser.jython.ast.VisitorBase.visitExtSlice(VisitorBase.java:351)
+	at org.python.pydev.parser.jython.ast.ExtSlice.accept(ExtSlice.java:80)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitSubscript(MakeAstValidForPrettyPrintingVisitor.java:944)
+	at org.python.pydev.parser.jython.ast.Subscript.accept(Subscript.java:87)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.handleArguments(MakeAstValidForPrettyPrintingVisitor.java:1078)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitCall(MakeAstValidForPrettyPrintingVisitor.java:623)
+	at org.python.pydev.parser.jython.ast.Call.accept(Call.java:123)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.handleArguments(MakeAstValidForPrettyPrintingVisitor.java:1078)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitCall(MakeAstValidForPrettyPrintingVisitor.java:623)
+	at org.python.pydev.parser.jython.ast.Call.accept(Call.java:123)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitAssign(MakeAstValidForPrettyPrintingVisitor.java:185)
+	at org.python.pydev.parser.jython.ast.Assign.accept(Assign.java:97)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitFor(MakeAstValidForPrettyPrintingVisitor.java:458)
+	at org.python.pydev.parser.jython.ast.For.accept(For.java:112)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitFor(MakeAstValidForPrettyPrintingVisitor.java:458)
+	at org.python.pydev.parser.jython.ast.For.accept(For.java:112)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitFunctionDef(MakeAstValidForPrettyPrintingVisitor.java:873)
+	at org.python.pydev.parser.jython.ast.FunctionDef.accept(FunctionDef.java:131)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.makeValid(MakeAstValidForPrettyPrintingVisitor.java:172)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:133)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:171)
+
+!ENTRY org.python.pydev.debug 4 4 2019-03-13 02:49:52.893
+!MESSAGE Debugger command ignored error response class org.python.pydev.debug.model.remote.RunCustomOperationCommandError in running custom operationTraceback (most recent call last):
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_resolver.py", line 201, in resolve
+    return dict[key]
+KeyError: 'KMeans.__init__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_comm.py", line 991, in do_it
+    self.style, self.code_or_file, self.fnname)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_vars.py", line 190, in custom_operation
+    expressionValue = getVariable(dbg, thread_id, frame_id, scope, attrs)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_vars.py", line 116, in getVariable
+    var = resolver.resolve(var, k)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_resolver.py", line 203, in resolve
+    return getattr(dict, key)
+AttributeError: 'dict' object has no attribute 'KMeans.__init__'
+
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-13 02:49:52.898
+!MESSAGE Command to get referrers did not return proper value.
+!STACK 0
+java.lang.RuntimeException: Command to get referrers did not return proper value.
+	at org.python.pydev.core.log.Log.log(Log.java:33)
+	at org.python.pydev.debug.referrers.ReferrersView$ReferrerCommandResponseListener.commandComplete(ReferrersView.java:72)
+	at org.python.pydev.debug.model.remote.AbstractDebuggerCommand.processResponse(AbstractDebuggerCommand.java:152)
+	at org.python.pydev.debug.model.remote.DebuggerReader.processCommand(DebuggerReader.java:115)
+	at org.python.pydev.debug.model.remote.DebuggerReader.run(DebuggerReader.java:139)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.python.pydev.debug 4 4 2019-03-13 02:49:57.042
+!MESSAGE Error fetching a variable
+!STACK 1
+org.eclipse.core.runtime.CoreException: pydevd error:Error resolving variables Traceback (most recent call last):
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_resolver.py", line 201, in resolve
+    return dict[key]
+KeyError: 'asarray'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_comm.py", line 647, in do_it
+    _typeName, val_dict = pydevd_vars.resolve_compound_variable_fields(dbg, self.thread_id, self.frame_id, self.scope, self.attributes)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_vars.py", line 133, in resolve_compound_variable_fields
+    var = getVariable(dbg, thread_id, frame_id, scope, attrs)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_vars.py", line 116, in getVariable
+    var = resolver.resolve(var, k)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_resolver.py", line 203, in resolve
+    return getattr(dict, key)
+AttributeError: 'dict' object has no attribute 'asarray'
+
+	at org.python.pydev.debug.model.remote.GetVariableCommand.getResponse(GetVariableCommand.java:70)
+	at org.python.pydev.debug.model.PyVariableCollection.getCommandVariables(PyVariableCollection.java:53)
+	at org.python.pydev.debug.model.VariablesLoader.commandComplete(VariablesLoader.java:86)
+	at org.python.pydev.debug.model.remote.AbstractDebuggerCommand.processResponse(AbstractDebuggerCommand.java:152)
+	at org.python.pydev.debug.model.remote.DebuggerReader.processCommand(DebuggerReader.java:115)
+	at org.python.pydev.debug.model.remote.DebuggerReader.run(DebuggerReader.java:139)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+!SUBENTRY 1 org.python.pydev.debug 4 4 2019-03-13 02:49:57.042
+!MESSAGE pydevd error:Error resolving variables Traceback (most recent call last):
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_resolver.py", line 201, in resolve
+    return dict[key]
+KeyError: 'asarray'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_comm.py", line 647, in do_it
+    _typeName, val_dict = pydevd_vars.resolve_compound_variable_fields(dbg, self.thread_id, self.frame_id, self.scope, self.attributes)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_vars.py", line 133, in resolve_compound_variable_fields
+    var = getVariable(dbg, thread_id, frame_id, scope, attrs)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_vars.py", line 116, in getVariable
+    var = resolver.resolve(var, k)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_resolver.py", line 203, in resolve
+    return getattr(dict, key)
+AttributeError: 'dict' object has no attribute 'asarray'
+
+
+!ENTRY org.python.pydev.debug 4 4 2019-03-13 02:49:57.510
+!MESSAGE Error fetching a variable
+!STACK 1
+org.eclipse.core.runtime.CoreException: pydevd error:Error resolving variables Traceback (most recent call last):
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_resolver.py", line 201, in resolve
+    return dict[key]
+KeyError: 'figure'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_comm.py", line 647, in do_it
+    _typeName, val_dict = pydevd_vars.resolve_compound_variable_fields(dbg, self.thread_id, self.frame_id, self.scope, self.attributes)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_vars.py", line 133, in resolve_compound_variable_fields
+    var = getVariable(dbg, thread_id, frame_id, scope, attrs)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_vars.py", line 116, in getVariable
+    var = resolver.resolve(var, k)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_resolver.py", line 203, in resolve
+    return getattr(dict, key)
+AttributeError: 'dict' object has no attribute 'figure'
+
+	at org.python.pydev.debug.model.remote.GetVariableCommand.getResponse(GetVariableCommand.java:70)
+	at org.python.pydev.debug.model.PyVariableCollection.getCommandVariables(PyVariableCollection.java:53)
+	at org.python.pydev.debug.model.VariablesLoader.commandComplete(VariablesLoader.java:86)
+	at org.python.pydev.debug.model.remote.AbstractDebuggerCommand.processResponse(AbstractDebuggerCommand.java:152)
+	at org.python.pydev.debug.model.remote.DebuggerReader.processCommand(DebuggerReader.java:115)
+	at org.python.pydev.debug.model.remote.DebuggerReader.run(DebuggerReader.java:139)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+!SUBENTRY 1 org.python.pydev.debug 4 4 2019-03-13 02:49:57.510
+!MESSAGE pydevd error:Error resolving variables Traceback (most recent call last):
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_resolver.py", line 201, in resolve
+    return dict[key]
+KeyError: 'figure'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_comm.py", line 647, in do_it
+    _typeName, val_dict = pydevd_vars.resolve_compound_variable_fields(dbg, self.thread_id, self.frame_id, self.scope, self.attributes)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_vars.py", line 133, in resolve_compound_variable_fields
+    var = getVariable(dbg, thread_id, frame_id, scope, attrs)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_vars.py", line 116, in getVariable
+    var = resolver.resolve(var, k)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_resolver.py", line 203, in resolve
+    return getattr(dict, key)
+AttributeError: 'dict' object has no attribute 'figure'
+
+
+!ENTRY org.python.pydev.debug 4 4 2019-03-13 02:49:58.530
+!MESSAGE Error fetching a variable
+!STACK 1
+org.eclipse.core.runtime.CoreException: pydevd error:Error resolving variables Traceback (most recent call last):
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_resolver.py", line 201, in resolve
+    return dict[key]
+KeyError: 'KMeans.fit'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_comm.py", line 647, in do_it
+    _typeName, val_dict = pydevd_vars.resolve_compound_variable_fields(dbg, self.thread_id, self.frame_id, self.scope, self.attributes)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_vars.py", line 133, in resolve_compound_variable_fields
+    var = getVariable(dbg, thread_id, frame_id, scope, attrs)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_vars.py", line 116, in getVariable
+    var = resolver.resolve(var, k)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_resolver.py", line 203, in resolve
+    return getattr(dict, key)
+AttributeError: 'dict' object has no attribute 'KMeans.fit'
+
+	at org.python.pydev.debug.model.remote.GetVariableCommand.getResponse(GetVariableCommand.java:70)
+	at org.python.pydev.debug.model.PyVariableCollection.getCommandVariables(PyVariableCollection.java:53)
+	at org.python.pydev.debug.model.VariablesLoader.commandComplete(VariablesLoader.java:86)
+	at org.python.pydev.debug.model.remote.AbstractDebuggerCommand.processResponse(AbstractDebuggerCommand.java:152)
+	at org.python.pydev.debug.model.remote.DebuggerReader.processCommand(DebuggerReader.java:115)
+	at org.python.pydev.debug.model.remote.DebuggerReader.run(DebuggerReader.java:139)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+!SUBENTRY 1 org.python.pydev.debug 4 4 2019-03-13 02:49:58.530
+!MESSAGE pydevd error:Error resolving variables Traceback (most recent call last):
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_resolver.py", line 201, in resolve
+    return dict[key]
+KeyError: 'KMeans.fit'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_comm.py", line 647, in do_it
+    _typeName, val_dict = pydevd_vars.resolve_compound_variable_fields(dbg, self.thread_id, self.frame_id, self.scope, self.attributes)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_vars.py", line 133, in resolve_compound_variable_fields
+    var = getVariable(dbg, thread_id, frame_id, scope, attrs)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_vars.py", line 116, in getVariable
+    var = resolver.resolve(var, k)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_resolver.py", line 203, in resolve
+    return getattr(dict, key)
+AttributeError: 'dict' object has no attribute 'KMeans.fit'
+
+
+!ENTRY org.python.pydev.debug 4 4 2019-03-13 02:50:58.597
+!MESSAGE Error fetching a variable
+!STACK 1
+org.eclipse.core.runtime.CoreException: pydevd error:Error resolving variables Traceback (most recent call last):
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_resolver.py", line 201, in resolve
+    return dict[key]
+KeyError: 'MNIST.load_testing'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_comm.py", line 647, in do_it
+    _typeName, val_dict = pydevd_vars.resolve_compound_variable_fields(dbg, self.thread_id, self.frame_id, self.scope, self.attributes)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_vars.py", line 133, in resolve_compound_variable_fields
+    var = getVariable(dbg, thread_id, frame_id, scope, attrs)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_vars.py", line 116, in getVariable
+    var = resolver.resolve(var, k)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_resolver.py", line 203, in resolve
+    return getattr(dict, key)
+AttributeError: 'dict' object has no attribute 'MNIST.load_testing'
+
+	at org.python.pydev.debug.model.remote.GetVariableCommand.getResponse(GetVariableCommand.java:70)
+	at org.python.pydev.debug.model.PyVariableCollection.getCommandVariables(PyVariableCollection.java:53)
+	at org.python.pydev.debug.model.VariablesLoader.commandComplete(VariablesLoader.java:86)
+	at org.python.pydev.debug.model.remote.AbstractDebuggerCommand.processResponse(AbstractDebuggerCommand.java:152)
+	at org.python.pydev.debug.model.remote.DebuggerReader.processCommand(DebuggerReader.java:115)
+	at org.python.pydev.debug.model.remote.DebuggerReader.run(DebuggerReader.java:139)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+!SUBENTRY 1 org.python.pydev.debug 4 4 2019-03-13 02:50:58.597
+!MESSAGE pydevd error:Error resolving variables Traceback (most recent call last):
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_resolver.py", line 201, in resolve
+    return dict[key]
+KeyError: 'MNIST.load_testing'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_comm.py", line 647, in do_it
+    _typeName, val_dict = pydevd_vars.resolve_compound_variable_fields(dbg, self.thread_id, self.frame_id, self.scope, self.attributes)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_vars.py", line 133, in resolve_compound_variable_fields
+    var = getVariable(dbg, thread_id, frame_id, scope, attrs)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_vars.py", line 116, in getVariable
+    var = resolver.resolve(var, k)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_resolver.py", line 203, in resolve
+    return getattr(dict, key)
+AttributeError: 'dict' object has no attribute 'MNIST.load_testing'
+
+
+!ENTRY org.python.pydev.debug 4 4 2019-03-13 02:51:02.201
+!MESSAGE Debugger command ignored error response class org.python.pydev.debug.model.remote.RunCustomOperationCommandError in running custom operationTraceback (most recent call last):
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_resolver.py", line 201, in resolve
+    return dict[key]
+KeyError: 'MNIST.load_testing'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_comm.py", line 991, in do_it
+    self.style, self.code_or_file, self.fnname)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_vars.py", line 190, in custom_operation
+    expressionValue = getVariable(dbg, thread_id, frame_id, scope, attrs)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_vars.py", line 116, in getVariable
+    var = resolver.resolve(var, k)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_resolver.py", line 203, in resolve
+    return getattr(dict, key)
+AttributeError: 'dict' object has no attribute 'MNIST.load_testing'
+
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-13 02:51:02.205
+!MESSAGE Command to get referrers did not return proper value.
+!STACK 0
+java.lang.RuntimeException: Command to get referrers did not return proper value.
+	at org.python.pydev.core.log.Log.log(Log.java:33)
+	at org.python.pydev.debug.referrers.ReferrersView$ReferrerCommandResponseListener.commandComplete(ReferrersView.java:72)
+	at org.python.pydev.debug.model.remote.AbstractDebuggerCommand.processResponse(AbstractDebuggerCommand.java:152)
+	at org.python.pydev.debug.model.remote.DebuggerReader.processCommand(DebuggerReader.java:115)
+	at org.python.pydev.debug.model.remote.DebuggerReader.run(DebuggerReader.java:139)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.python.pydev.debug 4 4 2019-03-13 02:51:04.884
+!MESSAGE Debugger command ignored error response class org.python.pydev.debug.model.remote.RunCustomOperationCommandError in running custom operationTraceback (most recent call last):
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_resolver.py", line 201, in resolve
+    return dict[key]
+KeyError: 'KMeans.fit'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_comm.py", line 991, in do_it
+    self.style, self.code_or_file, self.fnname)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_vars.py", line 190, in custom_operation
+    expressionValue = getVariable(dbg, thread_id, frame_id, scope, attrs)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_vars.py", line 116, in getVariable
+    var = resolver.resolve(var, k)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_resolver.py", line 203, in resolve
+    return getattr(dict, key)
+AttributeError: 'dict' object has no attribute 'KMeans.fit'
+
+
+!ENTRY org.python.pydev.debug 4 4 2019-03-13 02:51:25.660
+!MESSAGE Error fetching a variable
+!STACK 1
+org.eclipse.core.runtime.CoreException: pydevd error:Error resolving variables Traceback (most recent call last):
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_resolver.py", line 201, in resolve
+    return dict[key]
+KeyError: 'KMeans.fit'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_comm.py", line 647, in do_it
+    _typeName, val_dict = pydevd_vars.resolve_compound_variable_fields(dbg, self.thread_id, self.frame_id, self.scope, self.attributes)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_vars.py", line 133, in resolve_compound_variable_fields
+    var = getVariable(dbg, thread_id, frame_id, scope, attrs)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_vars.py", line 116, in getVariable
+    var = resolver.resolve(var, k)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_resolver.py", line 203, in resolve
+    return getattr(dict, key)
+AttributeError: 'dict' object has no attribute 'KMeans.fit'
+
+	at org.python.pydev.debug.model.remote.GetVariableCommand.getResponse(GetVariableCommand.java:70)
+	at org.python.pydev.debug.model.PyVariableCollection.getCommandVariables(PyVariableCollection.java:53)
+	at org.python.pydev.debug.model.VariablesLoader.commandComplete(VariablesLoader.java:86)
+	at org.python.pydev.debug.model.remote.AbstractDebuggerCommand.processResponse(AbstractDebuggerCommand.java:152)
+	at org.python.pydev.debug.model.remote.DebuggerReader.processCommand(DebuggerReader.java:115)
+	at org.python.pydev.debug.model.remote.DebuggerReader.run(DebuggerReader.java:139)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+!SUBENTRY 1 org.python.pydev.debug 4 4 2019-03-13 02:51:25.660
+!MESSAGE pydevd error:Error resolving variables Traceback (most recent call last):
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_resolver.py", line 201, in resolve
+    return dict[key]
+KeyError: 'KMeans.fit'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_comm.py", line 647, in do_it
+    _typeName, val_dict = pydevd_vars.resolve_compound_variable_fields(dbg, self.thread_id, self.frame_id, self.scope, self.attributes)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_vars.py", line 133, in resolve_compound_variable_fields
+    var = getVariable(dbg, thread_id, frame_id, scope, attrs)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_vars.py", line 116, in getVariable
+    var = resolver.resolve(var, k)
+  File "C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\_pydevd_bundle\pydevd_resolver.py", line 203, in resolve
+    return getattr(dict, key)
+AttributeError: 'dict' object has no attribute 'KMeans.fit'
+
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-13 03:02:06.952
+!MESSAGE Unhandled: ExtSlice[dims=[Slice[lower=null, upper=Num[n=1000, type=Int, num=1000], step=null], Slice[lower=null, upper=null, step=null]]]
+!STACK 0
+java.lang.RuntimeException: Unhandled: ExtSlice[dims=[Slice[lower=null, upper=Num[n=1000, type=Int, num=1000], step=null], Slice[lower=null, upper=null, step=null]]]
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.unhandled_node(MakeAstValidForPrettyPrintingVisitor.java:106)
+	at org.python.pydev.parser.jython.ast.VisitorBase.visitExtSlice(VisitorBase.java:351)
+	at org.python.pydev.parser.jython.ast.ExtSlice.accept(ExtSlice.java:80)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitSubscript(MakeAstValidForPrettyPrintingVisitor.java:944)
+	at org.python.pydev.parser.jython.ast.Subscript.accept(Subscript.java:87)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitBinOp(MakeAstValidForPrettyPrintingVisitor.java:205)
+	at org.python.pydev.parser.jython.ast.BinOp.accept(BinOp.java:87)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitAssign(MakeAstValidForPrettyPrintingVisitor.java:185)
+	at org.python.pydev.parser.jython.ast.Assign.accept(Assign.java:97)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.makeValid(MakeAstValidForPrettyPrintingVisitor.java:172)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:133)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:171)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-13 03:02:06.962
+!MESSAGE String index out of range: -4
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: -4
+	at org.python.pydev.shared_core.string.FastStringBuffer.delete(FastStringBuffer.java:522)
+	at org.python.pydev.parser.prettyprinterv2.WriteStateV2.dedent(WriteStateV2.java:64)
+	at org.python.pydev.parser.prettyprinterv2.PrettyPrinterV2.writeLinePart(PrettyPrinterV2.java:248)
+	at org.python.pydev.parser.prettyprinterv2.PrettyPrinterV2.print(PrettyPrinterV2.java:170)
+	at org.python.pydev.parser.visitors.NodeUtils.printAst(NodeUtils.java:2064)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:175)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:171)
+
+!ENTRY org.eclipse.ui 4 0 2019-03-13 03:06:01.527
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.custom.StyledText.getWordWrap(StyledText.java:5491)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.actions.WordWrapAction.update(WordWrapAction.java:31)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.actions.WordWrapAction.<init>(WordWrapAction.java:20)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.ScriptConsolePage.createActions(ScriptConsolePage.java:92)
+	at org.eclipse.ui.console.TextConsolePage.createControl(TextConsolePage.java:174)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:326)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:378)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:718)
+	at org.eclipse.ui.internal.console.ConsoleView.lambda$0(ConsoleView.java:412)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.ui 4 0 2019-03-13 03:06:59.883
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.custom.StyledText.getWordWrap(StyledText.java:5491)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.actions.WordWrapAction.update(WordWrapAction.java:31)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.actions.WordWrapAction.<init>(WordWrapAction.java:20)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.ScriptConsolePage.createActions(ScriptConsolePage.java:92)
+	at org.eclipse.ui.console.TextConsolePage.createControl(TextConsolePage.java:174)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:326)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:378)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:718)
+	at org.eclipse.ui.internal.console.ConsoleView.display(ConsoleView.java:515)
+	at org.eclipse.ui.internal.console.ShowConsoleAction.showConsole(ShowConsoleAction.java:48)
+	at org.eclipse.ui.internal.console.ShowConsoleAction.run(ShowConsoleAction.java:33)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:476)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.ui 4 0 2019-03-13 03:07:41.723
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.custom.StyledText.getWordWrap(StyledText.java:5491)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.actions.WordWrapAction.update(WordWrapAction.java:31)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.actions.WordWrapAction.<init>(WordWrapAction.java:20)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.ScriptConsolePage.createActions(ScriptConsolePage.java:92)
+	at org.eclipse.ui.console.TextConsolePage.createControl(TextConsolePage.java:174)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:326)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:378)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:718)
+	at org.eclipse.ui.internal.console.ConsoleView.lambda$0(ConsoleView.java:412)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.ui 4 0 2019-03-13 03:13:52.237
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.custom.StyledText.getWordWrap(StyledText.java:5491)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.actions.WordWrapAction.update(WordWrapAction.java:31)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.actions.WordWrapAction.<init>(WordWrapAction.java:20)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.ScriptConsolePage.createActions(ScriptConsolePage.java:92)
+	at org.eclipse.ui.console.TextConsolePage.createControl(TextConsolePage.java:174)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:326)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:378)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:718)
+	at org.eclipse.ui.internal.console.ConsoleView.display(ConsoleView.java:515)
+	at org.eclipse.ui.internal.console.ShowConsoleAction.showConsole(ShowConsoleAction.java:48)
+	at org.eclipse.ui.internal.console.ShowConsoleAction.run(ShowConsoleAction.java:33)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:476)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.ui 4 0 2019-03-13 03:13:56.986
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.custom.StyledText.getWordWrap(StyledText.java:5491)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.actions.WordWrapAction.update(WordWrapAction.java:31)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.actions.WordWrapAction.<init>(WordWrapAction.java:20)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.ScriptConsolePage.createActions(ScriptConsolePage.java:92)
+	at org.eclipse.ui.console.TextConsolePage.createControl(TextConsolePage.java:174)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:326)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:378)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:718)
+	at org.eclipse.ui.internal.console.ConsoleView.display(ConsoleView.java:515)
+	at org.eclipse.ui.internal.console.ShowConsoleAction.showConsole(ShowConsoleAction.java:48)
+	at org.eclipse.ui.internal.console.ShowConsoleAction.run(ShowConsoleAction.java:33)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:476)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.ui 4 0 2019-03-13 03:17:01.894
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.custom.StyledText.getWordWrap(StyledText.java:5491)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.actions.WordWrapAction.update(WordWrapAction.java:31)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.actions.WordWrapAction.<init>(WordWrapAction.java:20)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.ScriptConsolePage.createActions(ScriptConsolePage.java:92)
+	at org.eclipse.ui.console.TextConsolePage.createControl(TextConsolePage.java:174)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:326)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:378)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:718)
+	at org.eclipse.ui.internal.console.ConsoleView.lambda$0(ConsoleView.java:412)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.ui 4 0 2019-03-13 03:18:09.867
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.custom.StyledText.getWordWrap(StyledText.java:5491)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.actions.WordWrapAction.update(WordWrapAction.java:31)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.actions.WordWrapAction.<init>(WordWrapAction.java:20)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.ScriptConsolePage.createActions(ScriptConsolePage.java:92)
+	at org.eclipse.ui.console.TextConsolePage.createControl(TextConsolePage.java:174)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:326)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:378)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:718)
+	at org.eclipse.ui.internal.console.ConsoleView.lambda$0(ConsoleView.java:412)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.ui 4 0 2019-03-13 03:18:53.225
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.custom.StyledText.getWordWrap(StyledText.java:5491)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.actions.WordWrapAction.update(WordWrapAction.java:31)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.actions.WordWrapAction.<init>(WordWrapAction.java:20)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.ScriptConsolePage.createActions(ScriptConsolePage.java:92)
+	at org.eclipse.ui.console.TextConsolePage.createControl(TextConsolePage.java:174)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:326)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:378)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:718)
+	at org.eclipse.ui.internal.console.ConsoleView.lambda$0(ConsoleView.java:412)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.ui 4 0 2019-03-13 03:22:15.957
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.custom.StyledText.getWordWrap(StyledText.java:5491)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.actions.WordWrapAction.update(WordWrapAction.java:31)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.actions.WordWrapAction.<init>(WordWrapAction.java:20)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.ScriptConsolePage.createActions(ScriptConsolePage.java:92)
+	at org.eclipse.ui.console.TextConsolePage.createControl(TextConsolePage.java:174)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:326)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:378)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:718)
+	at org.eclipse.ui.internal.console.ConsoleView.lambda$0(ConsoleView.java:412)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.ui 4 0 2019-03-13 03:22:28.162
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.custom.StyledText.getWordWrap(StyledText.java:5491)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.actions.WordWrapAction.update(WordWrapAction.java:31)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.actions.WordWrapAction.<init>(WordWrapAction.java:20)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.ScriptConsolePage.createActions(ScriptConsolePage.java:92)
+	at org.eclipse.ui.console.TextConsolePage.createControl(TextConsolePage.java:174)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:326)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:378)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:718)
+	at org.eclipse.ui.internal.console.ConsoleView.display(ConsoleView.java:515)
+	at org.eclipse.ui.internal.console.ConsoleDropDownAction.run(ConsoleDropDownAction.java:132)
+	at org.eclipse.ui.internal.console.ConsoleDropDownAction.runWithEvent(ConsoleDropDownAction.java:154)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$5(ActionContributionItem.java:439)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.ui 4 0 2019-03-13 03:23:51.678
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.custom.StyledText.getWordWrap(StyledText.java:5491)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.actions.WordWrapAction.update(WordWrapAction.java:31)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.actions.WordWrapAction.<init>(WordWrapAction.java:20)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.ScriptConsolePage.createActions(ScriptConsolePage.java:92)
+	at org.eclipse.ui.console.TextConsolePage.createControl(TextConsolePage.java:174)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:326)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:378)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:718)
+	at org.eclipse.ui.internal.console.ConsoleView.lambda$0(ConsoleView.java:412)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.ui 4 0 2019-03-13 03:35:56.107
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.custom.StyledText.getWordWrap(StyledText.java:5491)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.actions.WordWrapAction.update(WordWrapAction.java:31)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.actions.WordWrapAction.<init>(WordWrapAction.java:20)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.ScriptConsolePage.createActions(ScriptConsolePage.java:92)
+	at org.eclipse.ui.console.TextConsolePage.createControl(TextConsolePage.java:174)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:326)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:378)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:718)
+	at org.eclipse.ui.internal.console.ConsoleView.lambda$0(ConsoleView.java:412)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.ui 4 0 2019-03-13 03:36:16.772
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.custom.StyledText.getWordWrap(StyledText.java:5491)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.actions.WordWrapAction.update(WordWrapAction.java:31)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.actions.WordWrapAction.<init>(WordWrapAction.java:20)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.ScriptConsolePage.createActions(ScriptConsolePage.java:92)
+	at org.eclipse.ui.console.TextConsolePage.createControl(TextConsolePage.java:174)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:326)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:378)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:718)
+	at org.eclipse.ui.internal.console.ConsoleView.lambda$0(ConsoleView.java:412)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.ui 4 0 2019-03-13 03:36:20.602
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.custom.StyledText.getWordWrap(StyledText.java:5491)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.actions.WordWrapAction.update(WordWrapAction.java:31)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.actions.WordWrapAction.<init>(WordWrapAction.java:20)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.ScriptConsolePage.createActions(ScriptConsolePage.java:92)
+	at org.eclipse.ui.console.TextConsolePage.createControl(TextConsolePage.java:174)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:326)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:378)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:718)
+	at org.eclipse.ui.internal.console.ConsoleView.lambda$0(ConsoleView.java:412)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.ui 4 0 2019-03-13 03:36:49.418
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.custom.StyledText.getWordWrap(StyledText.java:5491)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.actions.WordWrapAction.update(WordWrapAction.java:31)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.actions.WordWrapAction.<init>(WordWrapAction.java:20)
+	at org.python.pydev.shared_interactive_console.console.ui.internal.ScriptConsolePage.createActions(ScriptConsolePage.java:92)
+	at org.eclipse.ui.console.TextConsolePage.createControl(TextConsolePage.java:174)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:326)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:378)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:718)
+	at org.eclipse.ui.internal.console.ConsoleView.lambda$0(ConsoleView.java:412)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-13 03:44:00.554
+!MESSAGE org.eclipse.swt.internal.win32.OS.SetForegroundWindow(int)
+!STACK 0
+java.lang.NoSuchMethodException: org.eclipse.swt.internal.win32.OS.SetForegroundWindow(int)
+	at java.base/java.lang.Class.getMethod(Class.java:2109)
+	at com.python.pydev.debug.DebugEarlyStartup.forceActive(DebugEarlyStartup.java:137)
+	at com.python.pydev.debug.DebugEarlyStartup$4$1.run(DebugEarlyStartup.java:101)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-03-13 03:44:24.521
+!MESSAGE An internal error occurred during: "Debug child count update".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.debug.internal.ui.model.elements.DebugTargetContentProvider.getChildCount(DebugTargetContentProvider.java:37)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider.retrieveChildCount(ElementContentProvider.java:128)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider$2.run(ElementContentProvider.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-03-13 03:46:17.458
+!MESSAGE An internal error occurred during: "Debug child count update".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.debug.internal.ui.model.elements.DebugTargetContentProvider.getChildCount(DebugTargetContentProvider.java:37)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider.retrieveChildCount(ElementContentProvider.java:128)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider$2.run(ElementContentProvider.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-03-13 03:47:56.135
+!MESSAGE An internal error occurred during: "Debug child count update".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.debug.internal.ui.model.elements.DebugTargetContentProvider.getChildCount(DebugTargetContentProvider.java:37)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider.retrieveChildCount(ElementContentProvider.java:128)
+	at org.eclipse.debug.internal.ui.model.elements.ElementContentProvider$2.run(ElementContentProvider.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-13 04:07:09.182
+!MESSAGE Unhandled: ExtSlice[dims=[Index[value=Compare[left=Name[id=pred_label, ctx=Load, reserved=false], ops=[Eq], comparators=[Name[id=k, ctx=Load, reserved=false]]]], Slice[lower=null, upper=null, step=null]]]
+!STACK 0
+java.lang.RuntimeException: Unhandled: ExtSlice[dims=[Index[value=Compare[left=Name[id=pred_label, ctx=Load, reserved=false], ops=[Eq], comparators=[Name[id=k, ctx=Load, reserved=false]]]], Slice[lower=null, upper=null, step=null]]]
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.unhandled_node(MakeAstValidForPrettyPrintingVisitor.java:106)
+	at org.python.pydev.parser.jython.ast.VisitorBase.visitExtSlice(VisitorBase.java:351)
+	at org.python.pydev.parser.jython.ast.ExtSlice.accept(ExtSlice.java:80)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitSubscript(MakeAstValidForPrettyPrintingVisitor.java:944)
+	at org.python.pydev.parser.jython.ast.Subscript.accept(Subscript.java:87)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitAssign(MakeAstValidForPrettyPrintingVisitor.java:185)
+	at org.python.pydev.parser.jython.ast.Assign.accept(Assign.java:97)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.makeValid(MakeAstValidForPrettyPrintingVisitor.java:172)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:133)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:171)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-13 04:40:20.572
+!MESSAGE Unhandled: ExtSlice[dims=[Index[value=Compare[left=Name[id=pred_label, ctx=Load, reserved=false], ops=[Eq], comparators=[Name[id=k, ctx=Load, reserved=false]]]], Slice[lower=null, upper=null, step=null]]]
+!STACK 0
+java.lang.RuntimeException: Unhandled: ExtSlice[dims=[Index[value=Compare[left=Name[id=pred_label, ctx=Load, reserved=false], ops=[Eq], comparators=[Name[id=k, ctx=Load, reserved=false]]]], Slice[lower=null, upper=null, step=null]]]
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.unhandled_node(MakeAstValidForPrettyPrintingVisitor.java:106)
+	at org.python.pydev.parser.jython.ast.VisitorBase.visitExtSlice(VisitorBase.java:351)
+	at org.python.pydev.parser.jython.ast.ExtSlice.accept(ExtSlice.java:80)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitSubscript(MakeAstValidForPrettyPrintingVisitor.java:944)
+	at org.python.pydev.parser.jython.ast.Subscript.accept(Subscript.java:87)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitAssign(MakeAstValidForPrettyPrintingVisitor.java:185)
+	at org.python.pydev.parser.jython.ast.Assign.accept(Assign.java:97)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.makeValid(MakeAstValidForPrettyPrintingVisitor.java:172)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:133)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:171)
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-13 04:47:20.705
+!MESSAGE Unexpected debugger command:119
+seq:267
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.shared_core 1 1 2019-03-13 05:26:24.213
+!MESSAGE Not saving ast manager for: P/MergeSort. No write area available.

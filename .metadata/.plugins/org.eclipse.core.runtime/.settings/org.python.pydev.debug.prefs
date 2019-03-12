@@ -1,3 +1,11 @@
+CONSOLE_PROMPT_OUTPUT_MODE=2
+DJANGO_INTERPRETER_CMDS=import os; os.environ['DJANGO_SETTINGS_MODULE'] \= '${DJANGO_SETTINGS_MODULE}'; import django\r\nif django.VERSION <\= (1, 5)\:\r\n\tfrom django.core import management\r\n\timport ${DJANGO_SETTINGS_MODULE} as settings\r\n\tmanagement.setup_environ(settings)\r\nelse\:\r\n\tfrom django.core.wsgi import get_wsgi_application\r\n\tapplication \= get_wsgi_application()\r\n
+INITIAL_INTERPRETER_CMDS=import sys; print('%s %s' % (sys.executable or sys.platform, sys.version))\r\n
+RELATIVE_CONSOLE_HEIGHT=100
+SHOW_CONSOLE_PROMPT_ON_DEBUG=false
 eclipse.preferences.version=1
-pydevconsole_sysin_color=124,190,190
-pydevconsole_sysout_color=255,128,64
+pydevconsole_background_color=0,0,0
+pydevconsole_prompt_color=255,255,0
+pydevconsole_sysin_color=255,255,255
+pydevconsole_sysout_color=255,128,0
+pydevdebugconsole_background_color=0,0,0
