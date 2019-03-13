@@ -4,7 +4,7 @@ C:\Users\BAO\Documents\PyWorkspace\.metadata\.plugins\org.eclipse.core.resources
 linkedlist|1551112716119699000|C:\Users\BAO\Documents\PyWorkspace\Althgorim\linkedlist.py
 test|1551717167073134000|C:\Users\BAO\Documents\PyWorkspace\Althgorim\test.py
 Search|1548696695459601000|C:\Users\BAO\Documents\PyWorkspace\Althgorim\Search.py
-K_Cluster|1552155316780494000|C:\Users\BAO\Documents\PyWorkspace\Althgorim\K_Cluster.py
+K_Cluster|1552505869223011000|C:\Users\BAO\Documents\PyWorkspace\Althgorim\K_Cluster.py
 Sort|1552154804219793000|C:\Users\BAO\Documents\PyWorkspace\Althgorim\Sort.py
 LinearRegression|1551203679781878000|C:\Users\BAO\Documents\PyWorkspace\Althgorim\LinearRegression.py
 -- END DISKCACHE
@@ -14,11 +14,11 @@ LinearRegression|1551203679781878000|C:\Users\BAO\Documents\PyWorkspace\Althgori
 2=linkedlist
 13=A
 9=C:\Users\BAO\Documents\PyWorkspace\Althgorim\Sort.py
-3=C:\Users\BAO\Documents\PyWorkspace\Althgorim\test.py
-4=test
-5=C:\Users\BAO\Documents\PyWorkspace\Althgorim\K_Cluster.py
+5=C:\Users\BAO\Documents\PyWorkspace\Althgorim\test.py
+6=test
+3=C:\Users\BAO\Documents\PyWorkspace\Althgorim\K_Cluster.py
 7=C:\Users\BAO\Documents\PyWorkspace\Althgorim\LinearRegression.py
-6=K_Cluster
+4=K_Cluster
 12=Search
 10=Sort
 8=LinearRegression
@@ -26,33 +26,35 @@ LinearRegression|1551203679781878000|C:\Users\BAO\Documents\PyWorkspace\Althgori
 1=C:\Users\BAO\Documents\PyWorkspace\Althgorim\linkedlist.py
 -- END DICTIONARY
 -- START TREE 1
-28
+30
 A|1|A!1^6#7*17@
-N|2|N!3^14#1*35@N!5^15#1*51@
+K|1|K!3^31#1*35@
+N|1|N!5^14#1*51@
 W|1|W!7^17#1*67@
-X|3|X!5^19#1*51@X!7^11#1*67@X!3^18#1*35@
-X0|2|X0!5^16#1*51@X0!3^15#1*35@
-X1|2|X1!3^16#1*35@X1!5^17#1*51@
-X2|2|X2!5^18#1*51@X2!3^17#1*35@
+X|3|X!3^27#1*35@X!7^11#1*67@X!5^18#1*51@
+X0|2|X0!3^28#1*35@X0!5^15#1*51@
+X1|1|X1!5^16#1*51@
+X2|1|X2!5^17#1*51@
 Y|1|Y!7^15#1*67@
 a|1|a!1^12#1*19@
 arr|2|arr!9^12#1*83@Array!11^12#1*99@
 bin|1|binary!11^31#5*98@
-cov|2|cov!3^13#1*35@cov!5^14#1*51@
+cov|1|cov!5^13#1*51@
 dem|1|dem2!11^42#1*99@
-dis|2|display!3^20#5*34@display!5^21#5*50@
-kcl|3|kclus!5^61#1*51@KClustermain!5^41#5*50@KClustermain!3^41#5*34@
-lab|1|labels!3^54#1*35@
+dis|2|display!5^20#5*50@display!3^34#5*34@
+kcl|3|kclus!3^75#1*35@KClustermain!3^54#5*34@KClustermain!5^41#5*50@
+lab|1|labels!5^54#1*51@
 lin|1|line!11^19#5*98@
 mai|1|maininsersort!9^37#5*82@
-mea|2|mean!5^13#1*51@mean!3^12#1*35@
+mea|1|mean!5^12#1*51@
 mer|2|Merge!9^79#5*82@MergeSort!9^99#5*82@
+mnd|1|mndata!3^25#1*35@
 n|1|n!9^11#1*83@
 one|1|one!7^10#1*67@
-ori|2|original_label!5^20#1*51@original_label!3^19#1*35@
+ori|2|original_label!3^33#1*35@original_label!5^19#1*51@
 qui|2|quicksort!9^17#5*82@quicksortB1!9^51#5*82@
-sto|2|Stop!3^39#5*34@Stop!5^39#5*50@
-upd|4|updatecenter!5^34#5*50@updatelable!3^32#5*34@updatelable!5^32#5*50@updatecenter!3^34#5*34@
+sto|2|Stop!5^39#5*50@Stop!3^52#5*34@
+upd|4|updatecenter!3^47#5*34@updatelable!5^32#5*50@updatelable!3^45#5*34@updatecenter!5^34#5*50@
 x|1|x!7^9#1*67@
 y|1|y!7^14#1*67@
 -- END TREE

@@ -8,7 +8,7 @@ from sklearn.preprocessing import normalize
 
 from display_network import *
 
-mndata = MNIST('C:/Users/BAO/Documents/PyWorkspace/DATA')
+mndata = MNIST('../DATA/')
 mndata.load_testing()
 X = mndata.test_images
 X0 = np.asarray(X)[:1000,:]/256.0
@@ -16,18 +16,17 @@ X = X0
 
 K = 10
 kmeans = KMeans(n_clusters=K).fit(X)
-fig = plt.figure()
 
 pred_label = kmeans.predict(X)
+
 print(type(kmeans.cluster_centers_.T))
 print(kmeans.cluster_centers_.T.shape)
 A = display_network(kmeans.cluster_centers_.T, K, 1)
 
-f1= fig.add_subplot(2,2,1)
-f1.imshow(A, interpolation='nearest', cmap = "jet")
+f1 = plt.imshow(A, interpolation='nearest', cmap = "jet")
 f1.axes.get_xaxis().set_visible(False)
 f1.axes.get_yaxis().set_visible(False)
-
+plt.show()
 # plt.savefig('a1.png', bbox_inches='tight')
 
 
@@ -40,11 +39,8 @@ norm = plt.Normalize(vmin=A.min(), vmax=A.max())
 image = cmap(norm(A))
 
 import scipy.misc
-scipy.misc.imsave('../aa.png', image)
+scipy.misc.imsave('aa.png', image)
 
-print(type(pred_label))
-print(pred_label.shape)
-print(type(X0))
 N0 = 20;
 X1 = np.zeros((N0*K, 784))
 X2 = np.zeros((N0*K, 784))
@@ -58,11 +54,9 @@ for k in range(K):
     
     X1[N0*k: N0*k + N0,:] = Xk[nearest_id, :]
     X2[N0*k: N0*k + N0,:] = Xk[:N0, :]
-
-
+    
 plt.axis('off')
-A = display_network(X1.T, K, N0)
-f2 = fig.add_subplot(2,2,2)
-f2.imshow(A, interpolation='nearest' )
+A = display_network(X2.T, K, N0)
+f2 = plt.imshow(A, interpolation='nearest' )
 plt.gray()
 plt.show()
