@@ -1,7 +1,7 @@
 -- VERSION_5
 -- START DISKCACHE_2
 C:\Users\BAO\Documents\PyWorkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Chap5\com.python.pydev.analysis\v2_indexcache
-Chap5|1552505767845027000|C:\Users\BAO\Documents\PyWorkspace\Chap5\Chap5.py
+Chap5|1552506399136201000|C:\Users\BAO\Documents\PyWorkspace\Chap5\Chap5.py
 K_Cluster|1552503084261000000|C:\Users\BAO\Documents\PyWorkspace\Chap5\K_Cluster.py
 display_network|1552414007198173000|C:\Users\BAO\Documents\PyWorkspace\Chap5\display_network.py
 -- END DISKCACHE
@@ -19,27 +19,27 @@ display_network|1552414007198173000|C:\Users\BAO\Documents\PyWorkspace\Chap5\dis
 A|1|A!1^24#1*19@
 K|2|K!3^20#1*35@K!1^17#1*19@
 N|1|N!3^15#1*35@
-N0|1|N0!1^48#1*19@
+N0|1|N0!1^44#1*19@
 X|2|X!3^19#1*35@X!1^13#1*19@
 X0|2|X0!3^16#1*35@X0!1^14#1*19@
-X1|2|X1!1^49#1*19@X1!3^17#1*35@
-X2|2|X2!3^18#1*35@X2!1^50#1*19@
-Xk|1|Xk!1^53#5*19@
-cen|1|center_k!1^55#5*19@
-cma|1|cmap!1^35#1*19@
+X1|2|X1!1^45#1*19@X1!3^17#1*35@
+X2|2|X2!3^18#1*35@X2!1^46#1*19@
+Xk|1|Xk!1^49#5*19@
+cen|1|center_k!1^51#5*19@
+cma|1|cmap!1^34#1*19@
 cov|1|cov!3^14#1*35@
 dis|3|display_network!5^18#5*50@display_color_network!5^58#5*50@display!3^22#5*34@
 f1|1|f1!1^26#1*19@
-f2|1|f2!1^64#1*19@
-fig|1|fig!1^19#1*19@
-ima|1|image!1^40#1*19@
+f2|1|f2!1^60#1*19@
+ima|1|image!1^39#1*19@
 kcl|2|kclus!3^62#1*35@KClustermain!3^42#5*34@
 kme|1|kmeans!1^18#1*19@
 mea|1|mean!3^13#1*35@
 mnd|1|mndata!1^11#1*19@
-nei|1|neigh!1^56#5*19@
-nor|1|norm!1^36#1*19@
+nei|1|neigh!1^52#5*19@
+nor|1|norm!1^35#1*19@
 ori|1|original_label!3^21#1*35@
+pre|1|pred_label!1^20#1*19@
 sto|1|Stop!3^40#5*34@
 upd|2|updatecenter!3^35#5*34@updatelable!3^33#5*34@
 -- END TREE
