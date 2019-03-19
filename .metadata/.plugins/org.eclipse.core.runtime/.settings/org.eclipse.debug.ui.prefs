@@ -10,22 +10,20 @@ StringVariablePreferencePage=175,145,145,116,
 Variables.detail.orientation=Variables.detail.orientation.right
 eclipse.preferences.version=1
 org.eclipse.debug.ui.ExpressionView+org.eclipse.debug.ui.ToggleObjectBrowsersAction=false
-org.eclipse.debug.ui.MemoryHistoryKnownColor=235,235,235
-org.eclipse.debug.ui.MemoryHistoryUnknownColor=170,175,185
 org.eclipse.debug.ui.PREF_CHANGED_VALUE_BACKGROUND=79,104,19
 org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<launchPerspectives/>\r\n
 org.eclipse.debug.ui.build_before_launch=false
-org.eclipse.debug.ui.changedDebugElement=255,128,128
 org.eclipse.debug.ui.consoleBackground=0,0,0
 org.eclipse.debug.ui.detail_pane_word_wrap=false
 org.eclipse.debug.ui.errorColor=255,0,0
 org.eclipse.debug.ui.inColor=0,200,125
 org.eclipse.debug.ui.max_detail_length=1231232112
 org.eclipse.debug.ui.outColor=255,255,255
+org.eclipse.debug.ui.remove_all_expressions_prompt=false
+org.eclipse.debug.ui.save_dirty_editors_before_launch=always
 org.eclipse.debug.ui.user_view_bindings=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<viewBindings>\r\n    <view id\="org.eclipse.debug.ui.VariableView">\r\n        <perspective id\="org.eclipse.debug.ui.DebugPerspective" userAction\="opened"/>\r\n    </view>\r\n    <view id\="org.eclipse.debug.ui.DebugView">\r\n        <perspective id\="org.eclipse.debug.ui.DebugPerspective" userAction\="closed"/>\r\n    </view>\r\n    <view id\="org.eclipse.debug.ui.ExpressionView">\r\n        <perspective id\="org.eclipse.debug.ui.DebugPerspective" userAction\="opened"/>\r\n    </view>\r\n    <view id\="org.eclipse.debug.ui.BreakpointView">\r\n        <perspective id\="org.eclipse.debug.ui.DebugPerspective" userAction\="opened"/>\r\n    </view>\r\n    <view id\="org.eclipse.ui.console.ConsoleView">\r\n        <perspective id\="org.eclipse.debug.ui.DebugPerspective" userAction\="closed"/>\r\n    </view>\r\n</viewBindings>\r\n
 org.eclipse.debug.ui.wait_for_build=never
 org.eclispe.debug.ui.Debug_view.debug_toolbar_hidden_perspectives=org.eclipse.debug.ui.DebugPerspective,
-overriddenByCSS=,org.eclipse.debug.ui.MemoryHistoryKnownColor,org.eclipse.debug.ui.MemoryHistoryUnknownColor,org.eclipse.debug.ui.changedDebugElement,
 pref_state_memento.org.eclipse.debug.ui.BreakpointView=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<VariablesViewMemento org.eclipse.debug.ui.SASH_DETAILS_PART\="315" org.eclipse.debug.ui.SASH_VIEW_PART\="684">\r\n<PRESENTATION_CONTEXT_PROPERTIES IMemento.internal.id\="org.eclipse.debug.ui.BreakpointView">\r\n<BOOLEAN BOOLEAN\="true" IMemento.internal.id\="org.eclipse.debug.ui.check"/>\r\n</PRESENTATION_CONTEXT_PROPERTIES>\r\n</VariablesViewMemento>
 pref_state_memento.org.eclipse.debug.ui.DebugVieworg.eclipse.debug.ui.DebugView=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<DebugViewMemento org.eclipse.debug.ui.BREADCRUMB_DROPDOWN_AUTO_EXPAND\="false"/>
 pref_state_memento.org.eclipse.debug.ui.ExpressionView=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<VariablesViewMemento org.eclipse.debug.ui.SASH_DETAILS_PART\="651" org.eclipse.debug.ui.SASH_VIEW_PART\="348">\r\n<COLUMN_SIZES IMemento.internal.id\="org.eclipse.debug.ui.VARIALBE_COLUMN_PRESENTATION.COL_VAR_VALUE" SIZE\="487"/>\r\n<SHOW_COLUMNS IMemento.internal.id\="org.eclipse.debug.ui.VARIALBE_COLUMN_PRESENTATION" SHOW_COLUMNS\="false"/>\r\n<VISIBLE_COLUMNS COLUMN0\="org.eclipse.debug.ui.VARIALBE_COLUMN_PRESENTATION.COL_VAR_NAME" IMemento.internal.id\="org.eclipse.debug.ui.VARIALBE_COLUMN_PRESENTATION" SIZE\="1"/>\r\n<PRESENTATION_CONTEXT_PROPERTIES IMemento.internal.id\="org.eclipse.debug.ui.ExpressionView">\r\n<BOOLEAN BOOLEAN\="false" IMemento.internal.id\="PRESENTATION_SHOW_LOGICAL_STRUCTURES"/>\r\n</PRESENTATION_CONTEXT_PROPERTIES>\r\n</VariablesViewMemento>
