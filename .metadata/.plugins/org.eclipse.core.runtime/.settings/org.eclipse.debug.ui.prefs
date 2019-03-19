@@ -9,6 +9,7 @@ Expressions.detail.orientation=Variables.detail.orientation.right
 StringVariablePreferencePage=175,145,145,116,
 Variables.detail.orientation=Variables.detail.orientation.right
 eclipse.preferences.version=1
+org.eclipse.debug.ui.DebugView+org.eclipse.debug.ui.actions.ToggleStepFilters=true
 org.eclipse.debug.ui.ExpressionView+org.eclipse.debug.ui.ToggleObjectBrowsersAction=false
 org.eclipse.debug.ui.PREF_CHANGED_VALUE_BACKGROUND=79,104,19
 org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<launchPerspectives/>\r\n

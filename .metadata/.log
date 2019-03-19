@@ -7588,3 +7588,484 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-19 20:56:43.518
+!MESSAGE Info: Rebuilding internal caches: C:\Users\BAO\Documents\PyWorkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Chap7\com.python.pydev.analysis\AdditionalProjectInterpreterInfo.pydevinfo (Expected error to be provided and got no error!)
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-19 20:58:27.833
+!MESSAGE Unexpected debugger command:119
+seq:39
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-19 20:58:50.358
+!MESSAGE Unexpected debugger command:119
+seq:49
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-19 20:59:58.896
+!MESSAGE Unexpected debugger command:119
+seq:63
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-19 21:02:14.474
+!MESSAGE Unexpected debugger command:119
+seq:73
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-19 21:04:36.038
+!MESSAGE Unexpected debugger command:119
+seq:63
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-19 21:07:20.288
+!MESSAGE Unexpected debugger command:119
+seq:45
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-19 21:07:48.566
+!MESSAGE Unexpected debugger command:119
+seq:55
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-19 21:08:46.591
+!MESSAGE Unexpected debugger command:119
+seq:69
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-19 21:09:55.165
+!MESSAGE Unexpected debugger command:119
+seq:79
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-19 21:10:09.055
+!MESSAGE Unexpected debugger command:119
+seq:89
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-19 21:10:33.470
+!MESSAGE Unexpected debugger command:119
+seq:99
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-19 21:10:38.912
+!MESSAGE Unexpected debugger command:119
+seq:109
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-19 21:10:56.812
+!MESSAGE Unexpected debugger command:119
+seq:123
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-19 21:11:26.905
+!MESSAGE Unexpected debugger command:119
+seq:133
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-19 21:11:46.354
+!MESSAGE Unexpected debugger command:119
+seq:143
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-19 21:12:52.270
+!MESSAGE Unexpected debugger command:119
+seq:153
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-19 21:34:09.801
+!MESSAGE Unexpected debugger command:119
+seq:47
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-19 21:34:13.060
+!MESSAGE Unexpected debugger command:119
+seq:53
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-19 21:34:15.382
+!MESSAGE Unexpected debugger command:119
+seq:59
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-19 21:34:48.174
+!MESSAGE Unexpected debugger command:119
+seq:45
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-19 21:35:57.123
+!MESSAGE Unexpected debugger command:119
+seq:55
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-19 21:42:23.794
+!MESSAGE Unexpected debugger command:119
+seq:57
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-19 21:42:39.740
+!MESSAGE Unexpected debugger command:119
+seq:63
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.shared_core 2 2 2019-03-19 22:01:43.441
+!MESSAGE Warning: computed 11897 completions (trimming to 10000).
+Request: CompletionRequest[ editorFile:C:\Users\BAO\Documents\PyWorkspace\Chap7\7_1a.py activationToken: qualifier:in isInCalltip:false alreadyHasParams:false]
+!STACK 0
+java.lang.RuntimeException: Warning: computed 11897 completions (trimming to 10000).
+Request: CompletionRequest[ editorFile:C:\Users\BAO\Documents\PyWorkspace\Chap7\7_1a.py activationToken: qualifier:in isInCalltip:false alreadyHasParams:false]
+	at org.python.pydev.core.log.Log.logWarn(Log.java:49)
+	at org.python.pydev.ast.codecompletion.PyCodeCompletion.getCodeCompletionProposals(PyCodeCompletion.java:213)
+	at org.python.pydev.editor.codecompletion.PythonCompletionProcessor.getPythonProposals(PythonCompletionProcessor.java:235)
+	at org.python.pydev.editor.codecompletion.PythonCompletionProcessor.computeCompletionProposals(PythonCompletionProcessor.java:169)
+	at org.python.pydev.editor.codecompletion.SimpleAssistProcessor.computeCompletionProposals(SimpleAssistProcessor.java:287)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$2.lambda$0(ContentAssistant.java:2014)
+	at java.base/java.util.Collections$SingletonSet.forEach(Collections.java:4795)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$2.run(ContentAssistant.java:2013)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.computeCompletionProposals(ContentAssistant.java:2010)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.computeProposals(CompletionProposalPopup.java:573)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.lambda$0(CompletionProposalPopup.java:503)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.showProposals(CompletionProposalPopup.java:498)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$1.run(CompletionProposalPopup.java:379)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+!SESSION 2019-03-19 23:37:43.931 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-03-19 23:37:55.447
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-19 23:38:18.097
+!MESSAGE Unable to resolve module for:L/Chap7/7_1a.py
+!STACK 0
+java.lang.RuntimeException: Unable to resolve module for:L/Chap7/7_1a.py
+	at org.python.pydev.ast.builder.PyDevBuilderVisitor.getModuleName(PyDevBuilderVisitor.java:211)
+	at com.python.pydev.analysis.additionalinfo.builders.AnalysisBuilderVisitor.doVisitChangedResource(AnalysisBuilderVisitor.java:175)
+	at com.python.pydev.analysis.builder.AnalysisParserObserver.analyze(AnalysisParserObserver.java:177)
+	at com.python.pydev.analysis.builder.AnalysisParserObserver.access$0(AnalysisParserObserver.java:146)
+	at com.python.pydev.analysis.builder.AnalysisParserObserver$AnalyzeLaterJob.run(AnalysisParserObserver.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-03-19 23:38:19.141
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\BAO'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 00:10:44.588
+!MESSAGE Unexpected debugger command:119
+seq:33
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 00:16:29.727
+!MESSAGE Unexpected debugger command:119
+seq:105
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 00:18:00.355
+!MESSAGE Unexpected debugger command:119
+seq:41
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 00:18:55.031
+!MESSAGE Unexpected debugger command:119
+seq:57
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 00:22:23.845
+!MESSAGE Unexpected debugger command:119
+seq:57
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 00:23:19.704
+!MESSAGE Unexpected debugger command:119
+seq:53
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 00:23:20.581
+!MESSAGE Unexpected debugger command:119
+seq:59
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 00:23:55.512
+!MESSAGE Unexpected debugger command:119
+seq:73
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 00:24:34.874
+!MESSAGE Unexpected debugger command:119
+seq:91
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 00:25:25.833
+!MESSAGE Unexpected debugger command:119
+seq:83
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 00:31:07.590
+!MESSAGE Unexpected debugger command:119
+seq:85
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 00:32:39.842
+!MESSAGE Unexpected debugger command:119
+seq:137
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 00:34:10.829
+!MESSAGE Unexpected debugger command:119
+seq:209
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 00:35:27.126
+!MESSAGE Unexpected debugger command:119
+seq:85
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 00:37:13.954
+!MESSAGE Unexpected debugger command:119
+seq:111
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 00:39:54.425
+!MESSAGE Unexpected debugger command:119
+seq:153
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 00:46:32.441
+!MESSAGE Unexpected debugger command:119
+seq:177
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 00:49:39.344
+!MESSAGE Unexpected debugger command:119
+seq:155
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 00:54:19.885
+!MESSAGE Unexpected debugger command:119
+seq:163
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 00:55:04.719
+!MESSAGE Unexpected debugger command:119
+seq:43
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 00:55:25.822
+!MESSAGE Unexpected debugger command:119
+seq:61
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 00:55:28.200
+!MESSAGE Unexpected debugger command:119
+seq:71
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 00:56:25.859
+!MESSAGE Unexpected debugger command:119
+seq:71
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 00:58:16.884
+!MESSAGE Unexpected debugger command:119
+seq:115
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 01:02:28.503
+!MESSAGE Unexpected debugger command:119
+seq:105
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 01:02:43.359
+!MESSAGE Unexpected debugger command:119
+seq:143
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 01:41:58.790
+!MESSAGE Unexpected debugger command:119
+seq:121
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 01:42:53.679
+!MESSAGE Unexpected debugger command:119
+seq:119
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 01:43:36.990
+!MESSAGE Unexpected debugger command:119
+seq:145
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 01:44:52.338
+!MESSAGE Unexpected debugger command:119
+seq:173
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 01:46:06.677
+!MESSAGE Unexpected debugger command:119
+seq:51
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 01:48:15.833
+!MESSAGE Unexpected debugger command:119
+seq:79
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 01:48:38.015
+!MESSAGE Unexpected debugger command:119
+seq:47
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 01:49:54.550
+!MESSAGE Unexpected debugger command:119
+seq:51
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 01:56:25.766
+!MESSAGE Unexpected debugger command:119
+seq:167
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 02:03:12.287
+!MESSAGE Unexpected debugger command:119
+seq:67
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 02:03:20.042
+!MESSAGE Unexpected debugger command:119
+seq:85
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 02:03:23.469
+!MESSAGE Unexpected debugger command:119
+seq:99
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 02:04:09.284
+!MESSAGE Unexpected debugger command:119
+seq:51
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-20 02:14:21.795
+!MESSAGE Unexpected debugger command:119
+seq:53
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-20 02:21:49.379
+!MESSAGE ERROR reading shell. Message sent: @@SEARCHnumpy.sin
+END@@
+
+ProcessInfo:
+
+ - Executed: C:\Users\BAO\AppData\Local\Programs\Python\Python37-32\python.exe -u C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\pycompletionserver.py 49963
+
+ - Environment:
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\BAO\AppData\Roaming
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=DESKTOP-FK32ENH
+COMSPEC=C:\Windows\system32\cmd.exe
+DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+HOMEDRIVE=C:
+HOMEPATH=\Users\BAO
+LOCALAPPDATA=C:\Users\BAO\AppData\Local
+LOGONSERVER=\\DESKTOP-FK32ENH
+NUMBER_OF_PROCESSORS=6
+ONEDRIVE=C:\Users\BAO\OneDrive
+ONEDRIVECONSUMER=C:\Users\BAO\OneDrive
+OS=Windows_NT
+PATH=C:/jdk-11.0.2/bin/server;C:/jdk-11.0.2/bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\BAO\AppData\Local\Programs\Python\Python37-32\Scripts;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Users\BAO\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\BAO\AppData\Local\Programs\Python\Python37-32\;C:\Users\BAO\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=9e0a
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files\Intel\Wired Networking\
+PUBLIC=C:\Users\Public
+PYTHONPATH=C:\Users\BAO\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc\pydev_sitecustomize;C:\Users\BAO\AppData\Local\Programs\Python\Python37-32\DLLs;C:\Users\BAO\AppData\Local\Programs\Python\Python37-32\lib;C:\Users\BAO\AppData\Local\Programs\Python\Python37-32;C:\Users\BAO\AppData\Local\Programs\Python\Python37-32\lib\site-packages
+SESSIONNAME=Console
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=C:\Users\BAO\AppData\Local\Temp
+TMP=C:\Users\BAO\AppData\Local\Temp
+USERDOMAIN=DESKTOP-FK32ENH
+USERDOMAIN_ROAMINGPROFILE=DESKTOP-FK32ENH
+USERNAME=BAO
+USERPROFILE=C:\Users\BAO
+WINDIR=C:\Windows
+
+ - Working Dir:
+C:\Users\BAO\eclipse\java-2018-12\eclipse\..\..\..\.p2\pool\plugins\org.python.pydev.core_7.1.0.201902031515\pysrc
+
+ - OS:
+Windows 10
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.nio.channels.ClosedByInterruptException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:199)
+	at java.base/sun.nio.ch.SocketChannelImpl.endWrite(SocketChannelImpl.java:447)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:469)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.write(AbstractShell.java:545)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:692)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.getLineCol(AbstractShell.java:777)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.findDefinition(CompiledModule.java:611)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.findDefinition(CompiledModule.java:1)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:1072)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:758)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:1)
+	at org.python.pydev.ast.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:185)
+	at org.python.pydev.ast.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:84)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:101)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:171)
