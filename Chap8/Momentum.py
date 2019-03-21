@@ -7,21 +7,24 @@ from cmath import cos
 import numpy as np
 import matplotlib.pyplot as plt
 from numpy.core._multiarray_umath import concatenate
-def funcx(f):
-    return 4*f[0]**3 + 4*f[0]*f[1] - 26*f[0] -2*f[1] + 2
+def funcx(x):
+    return 2*x + 10*np.cos(x)
 def funcy(f):
     return 2*(f[0]**2 -f[0] + 2*f[1] - 8)
 def f(x):
-    return x**2 + 5*np.sin(x)
+    return x**2 + 10*np.sin(x)
 def main(rate):
-    result = [np.array([[3], [4]])]
+    result = [5]
+    v= [-funcx(5)]
     dem = 0
     while True:
-        xnew = result[-1] - np.reshape(rate*concatenate((funcx(result[-1]),funcy(result[-1]))),result[-1].shape)
-        if np.linalg.norm(result[-1] - xnew) < 1e-3:
+        vnew = 0.9*v[-1] + 0.1*funcx(result[-1]) 
+        xnew = result[-1] - vnew
+        if np.linalg.norm(result[-1] - xnew) < 1e-6:
             break
         result.append(xnew)
         dem += 1
+        v.append(vnew)
     print(dem)
     return result[-1]
 result = main(0.015)
