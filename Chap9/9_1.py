@@ -18,14 +18,38 @@ X = np.concatenate((X0, X1), axis = 1)
 y = np.concatenate((np.ones((1, N)), -1*np.ones((1, N))), axis = 1)
 # Xbar 
 X = np.concatenate((np.ones((1, 2*N)), X), axis = 0)
+t = np.arange(-1,6,0.1)
+d = X.shape[0]
+w = [np.random.randn(d, 1).reshape(3)]
+print(w)
+def h(w, x):    
+    return np.sign(np.dot(w.T, x.T))
 
+def has_converged(X, y, w):    
+    return np.array_equal(h(w, X), -1*y)
+def f(x,w):
+    return -1*(x*w[1]+w[0])/w[2]
 def perceptron(X, y):
-    w = [np.array([1,2,3])]
-    for i in range(N):
-            if y[i]*w.dot(X[i])< 0:
-                wnew = w[-1] + w[-1].dot(X[i])
-            if wnew == w[-1]:
-                break
-            w.append(wnew)    
-    return w
+    dem = 0    
+    while True:
+        mix_id = np.random.permutation(2*N)           
+        for i in mix_id:
+            dem += 1
+#            plt.plot(X[i][1],X[i][2],"bo")
+            print("-x: ",X[i],"-y: ",y[i],"-w: ",w[-1])
+            if h(w[-1],X[i])*y[i] >= 0:
+                wnew = w[-1] - y[i]*X[i]
+#                plt.plot(t,f(t,wnew))
+                w.append(wnew)
+        if has_converged(X, y, w[-1]):
+            break
+    print(dem)  
+    return w[-1]
+plt.plot(X0[0],X0[1],'go')
+plt.plot(X1[0],X1[1],'ro')
+plt.plot(t,f(t,w[-1]),'k')
+wnew = perceptron(X.T, y[-1])
+plt.plot(t,f(t,wnew),'k')
+
+plt.show()
 print("end")

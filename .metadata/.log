@@ -8778,3 +8778,1014 @@ payload:<xml><reloaded ok="False"></reloaded></xml>
 !MESSAGE Unexpected debugger command:119
 seq:203
 payload:<xml><reloaded ok="False"></reloaded></xml>
+!SESSION 2019-03-26 19:37:13.327 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-03-26 19:37:24.572
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-26 19:37:46.730
+!MESSAGE Unable to resolve module for:L/Chap9/9_1.py
+!STACK 0
+java.lang.RuntimeException: Unable to resolve module for:L/Chap9/9_1.py
+	at org.python.pydev.ast.builder.PyDevBuilderVisitor.getModuleName(PyDevBuilderVisitor.java:211)
+	at com.python.pydev.analysis.additionalinfo.builders.AnalysisBuilderVisitor.doVisitChangedResource(AnalysisBuilderVisitor.java:175)
+	at com.python.pydev.analysis.builder.AnalysisParserObserver.analyze(AnalysisParserObserver.java:177)
+	at com.python.pydev.analysis.builder.AnalysisParserObserver.access$0(AnalysisParserObserver.java:146)
+	at com.python.pydev.analysis.builder.AnalysisParserObserver$AnalyzeLaterJob.run(AnalysisParserObserver.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-03-26 19:37:48.131
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\BAO'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 21:14:33.731
+!MESSAGE Unexpected debugger command:119
+seq:79
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 21:15:09.265
+!MESSAGE Unexpected debugger command:119
+seq:55
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 21:15:09.270
+!MESSAGE Unexpected debugger command:119
+seq:37
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 21:15:26.270
+!MESSAGE Unexpected debugger command:119
+seq:47
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 21:15:26.279
+!MESSAGE Unexpected debugger command:119
+seq:73
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 21:21:38.468
+!MESSAGE Unexpected debugger command:119
+seq:47
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 21:21:38.473
+!MESSAGE Unexpected debugger command:119
+seq:57
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 21:26:37.767
+!MESSAGE Unexpected debugger command:119
+seq:67
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 21:26:46.339
+!MESSAGE Unexpected debugger command:119
+seq:77
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 21:27:26.808
+!MESSAGE Unexpected debugger command:119
+seq:87
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 21:27:50.986
+!MESSAGE Unexpected debugger command:119
+seq:97
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 21:27:55.290
+!MESSAGE Unexpected debugger command:119
+seq:107
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 21:27:58.663
+!MESSAGE Unexpected debugger command:119
+seq:117
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 21:28:09.669
+!MESSAGE Unexpected debugger command:119
+seq:127
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 21:28:52.776
+!MESSAGE Unexpected debugger command:119
+seq:59
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 21:29:20.473
+!MESSAGE Unexpected debugger command:119
+seq:63
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 21:35:38.741
+!MESSAGE Unexpected debugger command:119
+seq:59
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-26 21:38:54.799
+!MESSAGE Marker id 7597 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 7597 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:108)
+	at org.python.pydev.debug.model.PyBreakpoint.getType(PyBreakpoint.java:157)
+	at org.python.pydev.debug.model.AbstractDebugTarget.breakpointRemoved(AbstractDebugTarget.java:372)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointNotifier.run(BreakpointManager.java:1067)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointNotifier.notify(BreakpointManager.java:1091)
+	at org.eclipse.debug.internal.core.BreakpointManager.fireUpdate(BreakpointManager.java:999)
+	at org.eclipse.debug.internal.core.BreakpointManager.removeBreakpoints(BreakpointManager.java:532)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointManagerVisitor.update(BreakpointManager.java:788)
+	at org.eclipse.debug.internal.core.BreakpointManager.resourceChanged(BreakpointManager.java:721)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:290)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:153)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:365)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:157)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2019-03-26 21:38:54.799
+!MESSAGE Marker id 7597 not found.
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 21:38:54.842
+!MESSAGE Unexpected debugger command:119
+seq:73
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 21:39:04.530
+!MESSAGE Unexpected debugger command:119
+seq:81
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 21:39:08.589
+!MESSAGE Unexpected debugger command:119
+seq:87
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 21:39:48.866
+!MESSAGE Unexpected debugger command:119
+seq:39
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 21:39:49.027
+!MESSAGE Unexpected debugger command:119
+seq:73
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 21:41:02.037
+!MESSAGE Unexpected debugger command:119
+seq:149
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 21:41:42.280
+!MESSAGE Unexpected debugger command:119
+seq:79
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 21:43:21.749
+!MESSAGE Unexpected debugger command:119
+seq:117
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 21:45:39.742
+!MESSAGE Unexpected debugger command:119
+seq:151
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 21:47:40.571
+!MESSAGE Unexpected debugger command:119
+seq:63
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 21:48:53.288
+!MESSAGE Unexpected debugger command:119
+seq:53
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 21:49:21.707
+!MESSAGE Unexpected debugger command:119
+seq:93
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 21:54:19.012
+!MESSAGE Unexpected debugger command:119
+seq:71
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 21:54:46.476
+!MESSAGE Unexpected debugger command:119
+seq:89
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 21:54:58.469
+!MESSAGE Unexpected debugger command:119
+seq:107
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 22:02:36.466
+!MESSAGE Unexpected debugger command:119
+seq:99
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 22:02:41.392
+!MESSAGE Unexpected debugger command:119
+seq:121
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 22:04:30.062
+!MESSAGE Unexpected debugger command:119
+seq:57
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 22:06:23.787
+!MESSAGE Unexpected debugger command:119
+seq:51
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 22:08:38.877
+!MESSAGE Unexpected debugger command:119
+seq:87
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 22:12:31.287
+!MESSAGE Unexpected debugger command:119
+seq:63
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 22:14:38.060
+!MESSAGE Unexpected debugger command:119
+seq:139
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 22:18:26.036
+!MESSAGE Unexpected debugger command:119
+seq:59
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 22:19:29.389
+!MESSAGE Unexpected debugger command:119
+seq:59
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 22:19:42.445
+!MESSAGE Unexpected debugger command:119
+seq:59
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 22:20:04.830
+!MESSAGE Unexpected debugger command:119
+seq:55
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 22:20:33.559
+!MESSAGE Unexpected debugger command:119
+seq:63
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 22:25:19.922
+!MESSAGE Unexpected debugger command:119
+seq:63
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 22:34:40.512
+!MESSAGE Unexpected debugger command:119
+seq:141
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 22:45:31.977
+!MESSAGE Unexpected debugger command:119
+seq:209
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 22:46:07.215
+!MESSAGE Unexpected debugger command:119
+seq:65
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 22:49:56.215
+!MESSAGE Unexpected debugger command:119
+seq:161
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 23:03:35.767
+!MESSAGE Unexpected debugger command:119
+seq:165
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 23:13:18.868
+!MESSAGE Unexpected debugger command:119
+seq:107
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 23:19:58.041
+!MESSAGE Unexpected debugger command:119
+seq:907
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 23:25:55.448
+!MESSAGE Unexpected debugger command:119
+seq:63
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 23:27:49.368
+!MESSAGE Unexpected debugger command:119
+seq:169
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 23:32:17.496
+!MESSAGE Unexpected debugger command:119
+seq:47
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 23:32:53.401
+!MESSAGE Unexpected debugger command:119
+seq:55
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 23:33:25.102
+!MESSAGE Unexpected debugger command:119
+seq:51
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 23:33:39.988
+!MESSAGE Unexpected debugger command:119
+seq:53
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 23:33:55.154
+!MESSAGE Unexpected debugger command:119
+seq:55
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 23:34:03.643
+!MESSAGE Unexpected debugger command:119
+seq:57
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-26 23:34:15.400
+!MESSAGE Unhandled: ExtSlice[dims=[Slice[lower=null, upper=null, step=null], Index[value=Subscript[value=Name[id=mix_id, ctx=Load, reserved=false], slice=Index[value=Name[id=i, ctx=Load, reserved=false]], ctx=Load]]]]
+!STACK 0
+java.lang.RuntimeException: Unhandled: ExtSlice[dims=[Slice[lower=null, upper=null, step=null], Index[value=Subscript[value=Name[id=mix_id, ctx=Load, reserved=false], slice=Index[value=Name[id=i, ctx=Load, reserved=false]], ctx=Load]]]]
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.unhandled_node(MakeAstValidForPrettyPrintingVisitor.java:106)
+	at org.python.pydev.parser.jython.ast.VisitorBase.visitExtSlice(VisitorBase.java:351)
+	at org.python.pydev.parser.jython.ast.ExtSlice.accept(ExtSlice.java:80)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitSubscript(MakeAstValidForPrettyPrintingVisitor.java:944)
+	at org.python.pydev.parser.jython.ast.Subscript.accept(Subscript.java:87)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitAttribute(MakeAstValidForPrettyPrintingVisitor.java:611)
+	at org.python.pydev.parser.jython.ast.Attribute.accept(Attribute.java:87)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitCall(MakeAstValidForPrettyPrintingVisitor.java:621)
+	at org.python.pydev.parser.jython.ast.Call.accept(Call.java:123)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitAssign(MakeAstValidForPrettyPrintingVisitor.java:185)
+	at org.python.pydev.parser.jython.ast.Assign.accept(Assign.java:97)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitFor(MakeAstValidForPrettyPrintingVisitor.java:458)
+	at org.python.pydev.parser.jython.ast.For.accept(For.java:112)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitWhile(MakeAstValidForPrettyPrintingVisitor.java:396)
+	at org.python.pydev.parser.jython.ast.While.accept(While.java:96)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitFunctionDef(MakeAstValidForPrettyPrintingVisitor.java:873)
+	at org.python.pydev.parser.jython.ast.FunctionDef.accept(FunctionDef.java:131)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.makeValid(MakeAstValidForPrettyPrintingVisitor.java:172)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:133)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:171)
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 23:34:26.755
+!MESSAGE Unexpected debugger command:119
+seq:75
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-26 23:36:12.514
+!MESSAGE Unhandled: ExtSlice[dims=[Slice[lower=null, upper=null, step=null], Index[value=Subscript[value=Name[id=mix_id, ctx=Load, reserved=false], slice=Index[value=Name[id=i, ctx=Load, reserved=false]], ctx=Load]]]]
+!STACK 0
+java.lang.RuntimeException: Unhandled: ExtSlice[dims=[Slice[lower=null, upper=null, step=null], Index[value=Subscript[value=Name[id=mix_id, ctx=Load, reserved=false], slice=Index[value=Name[id=i, ctx=Load, reserved=false]], ctx=Load]]]]
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.unhandled_node(MakeAstValidForPrettyPrintingVisitor.java:106)
+	at org.python.pydev.parser.jython.ast.VisitorBase.visitExtSlice(VisitorBase.java:351)
+	at org.python.pydev.parser.jython.ast.ExtSlice.accept(ExtSlice.java:80)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitSubscript(MakeAstValidForPrettyPrintingVisitor.java:944)
+	at org.python.pydev.parser.jython.ast.Subscript.accept(Subscript.java:87)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitAttribute(MakeAstValidForPrettyPrintingVisitor.java:611)
+	at org.python.pydev.parser.jython.ast.Attribute.accept(Attribute.java:87)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitCall(MakeAstValidForPrettyPrintingVisitor.java:621)
+	at org.python.pydev.parser.jython.ast.Call.accept(Call.java:123)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitAssign(MakeAstValidForPrettyPrintingVisitor.java:185)
+	at org.python.pydev.parser.jython.ast.Assign.accept(Assign.java:97)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.makeValid(MakeAstValidForPrettyPrintingVisitor.java:172)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:133)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:171)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-26 23:36:12.521
+!MESSAGE String index out of range: -4
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: -4
+	at org.python.pydev.shared_core.string.FastStringBuffer.delete(FastStringBuffer.java:522)
+	at org.python.pydev.parser.prettyprinterv2.WriteStateV2.dedent(WriteStateV2.java:64)
+	at org.python.pydev.parser.prettyprinterv2.PrettyPrinterV2.writeLinePart(PrettyPrinterV2.java:248)
+	at org.python.pydev.parser.prettyprinterv2.PrettyPrinterV2.print(PrettyPrinterV2.java:170)
+	at org.python.pydev.parser.visitors.NodeUtils.printAst(NodeUtils.java:2064)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:175)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:171)
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 23:36:25.156
+!MESSAGE Unexpected debugger command:119
+seq:111
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 23:36:25.161
+!MESSAGE Unexpected debugger command:119
+seq:79
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 23:36:47.207
+!MESSAGE Unexpected debugger command:119
+seq:85
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-26 23:37:24.586
+!MESSAGE Unhandled: ExtSlice[dims=[Index[value=Num[n=0, type=Int, num=0]], Index[value=Subscript[value=Name[id=mix_id, ctx=Load, reserved=false], slice=Index[value=Name[id=i, ctx=Load, reserved=false]], ctx=Load]]]]
+!STACK 0
+java.lang.RuntimeException: Unhandled: ExtSlice[dims=[Index[value=Num[n=0, type=Int, num=0]], Index[value=Subscript[value=Name[id=mix_id, ctx=Load, reserved=false], slice=Index[value=Name[id=i, ctx=Load, reserved=false]], ctx=Load]]]]
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.unhandled_node(MakeAstValidForPrettyPrintingVisitor.java:106)
+	at org.python.pydev.parser.jython.ast.VisitorBase.visitExtSlice(VisitorBase.java:351)
+	at org.python.pydev.parser.jython.ast.ExtSlice.accept(ExtSlice.java:80)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitSubscript(MakeAstValidForPrettyPrintingVisitor.java:944)
+	at org.python.pydev.parser.jython.ast.Subscript.accept(Subscript.java:87)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitAssign(MakeAstValidForPrettyPrintingVisitor.java:185)
+	at org.python.pydev.parser.jython.ast.Assign.accept(Assign.java:97)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.makeValid(MakeAstValidForPrettyPrintingVisitor.java:172)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:133)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:171)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-26 23:37:26.477
+!MESSAGE Unhandled: ExtSlice[dims=[Slice[lower=null, upper=null, step=null], Index[value=Subscript[value=Name[id=mix_id, ctx=Load, reserved=false], slice=Index[value=Name[id=i, ctx=Load, reserved=false]], ctx=Load]]]]
+!STACK 0
+java.lang.RuntimeException: Unhandled: ExtSlice[dims=[Slice[lower=null, upper=null, step=null], Index[value=Subscript[value=Name[id=mix_id, ctx=Load, reserved=false], slice=Index[value=Name[id=i, ctx=Load, reserved=false]], ctx=Load]]]]
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.unhandled_node(MakeAstValidForPrettyPrintingVisitor.java:106)
+	at org.python.pydev.parser.jython.ast.VisitorBase.visitExtSlice(VisitorBase.java:351)
+	at org.python.pydev.parser.jython.ast.ExtSlice.accept(ExtSlice.java:80)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitSubscript(MakeAstValidForPrettyPrintingVisitor.java:944)
+	at org.python.pydev.parser.jython.ast.Subscript.accept(Subscript.java:87)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitAttribute(MakeAstValidForPrettyPrintingVisitor.java:611)
+	at org.python.pydev.parser.jython.ast.Attribute.accept(Attribute.java:87)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitCall(MakeAstValidForPrettyPrintingVisitor.java:621)
+	at org.python.pydev.parser.jython.ast.Call.accept(Call.java:123)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitAssign(MakeAstValidForPrettyPrintingVisitor.java:185)
+	at org.python.pydev.parser.jython.ast.Assign.accept(Assign.java:97)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.makeValid(MakeAstValidForPrettyPrintingVisitor.java:172)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:133)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:171)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-26 23:37:26.483
+!MESSAGE String index out of range: -4
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: -4
+	at org.python.pydev.shared_core.string.FastStringBuffer.delete(FastStringBuffer.java:522)
+	at org.python.pydev.parser.prettyprinterv2.WriteStateV2.dedent(WriteStateV2.java:64)
+	at org.python.pydev.parser.prettyprinterv2.PrettyPrinterV2.writeLinePart(PrettyPrinterV2.java:248)
+	at org.python.pydev.parser.prettyprinterv2.PrettyPrinterV2.print(PrettyPrinterV2.java:170)
+	at org.python.pydev.parser.visitors.NodeUtils.printAst(NodeUtils.java:2064)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:175)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:171)
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 23:37:47.287
+!MESSAGE Unexpected debugger command:119
+seq:95
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 23:37:47.292
+!MESSAGE Unexpected debugger command:119
+seq:73
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-26 23:38:11.723
+!MESSAGE Unhandled: ExtSlice[dims=[Index[value=Num[n=0, type=Int, num=0]], Index[value=Subscript[value=Name[id=mix_id, ctx=Load, reserved=false], slice=Index[value=Name[id=i, ctx=Load, reserved=false]], ctx=Load]]]]
+!STACK 0
+java.lang.RuntimeException: Unhandled: ExtSlice[dims=[Index[value=Num[n=0, type=Int, num=0]], Index[value=Subscript[value=Name[id=mix_id, ctx=Load, reserved=false], slice=Index[value=Name[id=i, ctx=Load, reserved=false]], ctx=Load]]]]
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.unhandled_node(MakeAstValidForPrettyPrintingVisitor.java:106)
+	at org.python.pydev.parser.jython.ast.VisitorBase.visitExtSlice(VisitorBase.java:351)
+	at org.python.pydev.parser.jython.ast.ExtSlice.accept(ExtSlice.java:80)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitSubscript(MakeAstValidForPrettyPrintingVisitor.java:944)
+	at org.python.pydev.parser.jython.ast.Subscript.accept(Subscript.java:87)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitAssign(MakeAstValidForPrettyPrintingVisitor.java:185)
+	at org.python.pydev.parser.jython.ast.Assign.accept(Assign.java:97)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.makeValid(MakeAstValidForPrettyPrintingVisitor.java:172)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:133)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:171)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-26 23:38:26.899
+!MESSAGE Unhandled: ExtSlice[dims=[Slice[lower=null, upper=null, step=null], Index[value=Subscript[value=Name[id=mix_id, ctx=Load, reserved=false], slice=Index[value=Name[id=i, ctx=Load, reserved=false]], ctx=Load]]]]
+!STACK 0
+java.lang.RuntimeException: Unhandled: ExtSlice[dims=[Slice[lower=null, upper=null, step=null], Index[value=Subscript[value=Name[id=mix_id, ctx=Load, reserved=false], slice=Index[value=Name[id=i, ctx=Load, reserved=false]], ctx=Load]]]]
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.unhandled_node(MakeAstValidForPrettyPrintingVisitor.java:106)
+	at org.python.pydev.parser.jython.ast.VisitorBase.visitExtSlice(VisitorBase.java:351)
+	at org.python.pydev.parser.jython.ast.ExtSlice.accept(ExtSlice.java:80)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitSubscript(MakeAstValidForPrettyPrintingVisitor.java:944)
+	at org.python.pydev.parser.jython.ast.Subscript.accept(Subscript.java:87)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitAttribute(MakeAstValidForPrettyPrintingVisitor.java:611)
+	at org.python.pydev.parser.jython.ast.Attribute.accept(Attribute.java:87)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitCall(MakeAstValidForPrettyPrintingVisitor.java:621)
+	at org.python.pydev.parser.jython.ast.Call.accept(Call.java:123)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitAssign(MakeAstValidForPrettyPrintingVisitor.java:185)
+	at org.python.pydev.parser.jython.ast.Assign.accept(Assign.java:97)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.makeValid(MakeAstValidForPrettyPrintingVisitor.java:172)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:133)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:171)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-26 23:38:26.904
+!MESSAGE String index out of range: -4
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: -4
+	at org.python.pydev.shared_core.string.FastStringBuffer.delete(FastStringBuffer.java:522)
+	at org.python.pydev.parser.prettyprinterv2.WriteStateV2.dedent(WriteStateV2.java:64)
+	at org.python.pydev.parser.prettyprinterv2.PrettyPrinterV2.writeLinePart(PrettyPrinterV2.java:248)
+	at org.python.pydev.parser.prettyprinterv2.PrettyPrinterV2.print(PrettyPrinterV2.java:170)
+	at org.python.pydev.parser.visitors.NodeUtils.printAst(NodeUtils.java:2064)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:175)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:171)
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 23:38:42.716
+!MESSAGE Unexpected debugger command:119
+seq:109
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 23:38:42.719
+!MESSAGE Unexpected debugger command:119
+seq:81
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-26 23:39:23.790
+!MESSAGE Unhandled: ExtSlice[dims=[Index[value=Num[n=0, type=Int, num=0]], Index[value=Subscript[value=Name[id=mix_id, ctx=Load, reserved=false], slice=Index[value=Name[id=i, ctx=Load, reserved=false]], ctx=Load]]]]
+!STACK 0
+java.lang.RuntimeException: Unhandled: ExtSlice[dims=[Index[value=Num[n=0, type=Int, num=0]], Index[value=Subscript[value=Name[id=mix_id, ctx=Load, reserved=false], slice=Index[value=Name[id=i, ctx=Load, reserved=false]], ctx=Load]]]]
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.unhandled_node(MakeAstValidForPrettyPrintingVisitor.java:106)
+	at org.python.pydev.parser.jython.ast.VisitorBase.visitExtSlice(VisitorBase.java:351)
+	at org.python.pydev.parser.jython.ast.ExtSlice.accept(ExtSlice.java:80)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitSubscript(MakeAstValidForPrettyPrintingVisitor.java:944)
+	at org.python.pydev.parser.jython.ast.Subscript.accept(Subscript.java:87)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitAssign(MakeAstValidForPrettyPrintingVisitor.java:185)
+	at org.python.pydev.parser.jython.ast.Assign.accept(Assign.java:97)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.makeValid(MakeAstValidForPrettyPrintingVisitor.java:172)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:133)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:171)
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 23:51:19.230
+!MESSAGE Unexpected debugger command:119
+seq:53
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 23:51:29.792
+!MESSAGE Unexpected debugger command:119
+seq:83
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 23:54:25.952
+!MESSAGE Unexpected debugger command:119
+seq:57
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 23:59:48.168
+!MESSAGE Unexpected debugger command:119
+seq:61
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-26 23:59:48.173
+!MESSAGE Unexpected debugger command:119
+seq:47
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-27 00:00:05.193
+!MESSAGE Unexpected debugger command:119
+seq:53
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-27 00:00:05.197
+!MESSAGE Unexpected debugger command:119
+seq:57
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-27 00:00:28.682
+!MESSAGE Unhandled: ExtSlice[dims=[Slice[lower=null, upper=null, step=null], Index[value=Subscript[value=Name[id=mix_id, ctx=Load, reserved=false], slice=Index[value=Name[id=i, ctx=Load, reserved=false]], ctx=Load]]]]
+!STACK 0
+java.lang.RuntimeException: Unhandled: ExtSlice[dims=[Slice[lower=null, upper=null, step=null], Index[value=Subscript[value=Name[id=mix_id, ctx=Load, reserved=false], slice=Index[value=Name[id=i, ctx=Load, reserved=false]], ctx=Load]]]]
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.unhandled_node(MakeAstValidForPrettyPrintingVisitor.java:106)
+	at org.python.pydev.parser.jython.ast.VisitorBase.visitExtSlice(VisitorBase.java:351)
+	at org.python.pydev.parser.jython.ast.ExtSlice.accept(ExtSlice.java:80)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitSubscript(MakeAstValidForPrettyPrintingVisitor.java:944)
+	at org.python.pydev.parser.jython.ast.Subscript.accept(Subscript.java:87)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitAttribute(MakeAstValidForPrettyPrintingVisitor.java:611)
+	at org.python.pydev.parser.jython.ast.Attribute.accept(Attribute.java:87)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitCall(MakeAstValidForPrettyPrintingVisitor.java:621)
+	at org.python.pydev.parser.jython.ast.Call.accept(Call.java:123)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitAssign(MakeAstValidForPrettyPrintingVisitor.java:185)
+	at org.python.pydev.parser.jython.ast.Assign.accept(Assign.java:97)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitFor(MakeAstValidForPrettyPrintingVisitor.java:458)
+	at org.python.pydev.parser.jython.ast.For.accept(For.java:112)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.makeValid(MakeAstValidForPrettyPrintingVisitor.java:172)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:133)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:171)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-27 00:01:10.667
+!MESSAGE Unhandled: ExtSlice[dims=[Index[value=Num[n=0, type=Int, num=0]], Index[value=Subscript[value=Name[id=mix_id, ctx=Load, reserved=false], slice=Index[value=Name[id=i, ctx=Load, reserved=false]], ctx=Load]]]]
+!STACK 0
+java.lang.RuntimeException: Unhandled: ExtSlice[dims=[Index[value=Num[n=0, type=Int, num=0]], Index[value=Subscript[value=Name[id=mix_id, ctx=Load, reserved=false], slice=Index[value=Name[id=i, ctx=Load, reserved=false]], ctx=Load]]]]
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.unhandled_node(MakeAstValidForPrettyPrintingVisitor.java:106)
+	at org.python.pydev.parser.jython.ast.VisitorBase.visitExtSlice(VisitorBase.java:351)
+	at org.python.pydev.parser.jython.ast.ExtSlice.accept(ExtSlice.java:80)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitSubscript(MakeAstValidForPrettyPrintingVisitor.java:944)
+	at org.python.pydev.parser.jython.ast.Subscript.accept(Subscript.java:87)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitAssign(MakeAstValidForPrettyPrintingVisitor.java:185)
+	at org.python.pydev.parser.jython.ast.Assign.accept(Assign.java:97)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.makeValid(MakeAstValidForPrettyPrintingVisitor.java:172)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:133)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:171)
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-27 00:01:12.766
+!MESSAGE Unexpected debugger command:119
+seq:87
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-27 00:01:12.771
+!MESSAGE Unexpected debugger command:119
+seq:103
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-27 00:01:16.899
+!MESSAGE Unexpected debugger command:119
+seq:109
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-27 00:01:16.903
+!MESSAGE Unexpected debugger command:119
+seq:93
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-27 00:01:56.716
+!MESSAGE Unexpected debugger command:119
+seq:135
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-27 00:01:56.720
+!MESSAGE Unexpected debugger command:119
+seq:103
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-27 00:02:05.569
+!MESSAGE Unexpected debugger command:119
+seq:113
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-27 00:05:32.321
+!MESSAGE Unexpected debugger command:119
+seq:233
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-27 00:05:32.326
+!MESSAGE Unexpected debugger command:119
+seq:161
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-27 00:05:36.757
+!MESSAGE Unexpected debugger command:119
+seq:171
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-27 00:05:36.761
+!MESSAGE Unexpected debugger command:119
+seq:243
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-27 00:08:09.786
+!MESSAGE Unhandled: ExtSlice[dims=[Slice[lower=null, upper=null, step=null], Index[value=Subscript[value=Name[id=mix_id, ctx=Load, reserved=false], slice=Index[value=Name[id=i, ctx=Load, reserved=false]], ctx=Load]]]]
+!STACK 0
+java.lang.RuntimeException: Unhandled: ExtSlice[dims=[Slice[lower=null, upper=null, step=null], Index[value=Subscript[value=Name[id=mix_id, ctx=Load, reserved=false], slice=Index[value=Name[id=i, ctx=Load, reserved=false]], ctx=Load]]]]
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.unhandled_node(MakeAstValidForPrettyPrintingVisitor.java:106)
+	at org.python.pydev.parser.jython.ast.VisitorBase.visitExtSlice(VisitorBase.java:351)
+	at org.python.pydev.parser.jython.ast.ExtSlice.accept(ExtSlice.java:80)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitSubscript(MakeAstValidForPrettyPrintingVisitor.java:944)
+	at org.python.pydev.parser.jython.ast.Subscript.accept(Subscript.java:87)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitAttribute(MakeAstValidForPrettyPrintingVisitor.java:611)
+	at org.python.pydev.parser.jython.ast.Attribute.accept(Attribute.java:87)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitCall(MakeAstValidForPrettyPrintingVisitor.java:621)
+	at org.python.pydev.parser.jython.ast.Call.accept(Call.java:123)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitAssign(MakeAstValidForPrettyPrintingVisitor.java:185)
+	at org.python.pydev.parser.jython.ast.Assign.accept(Assign.java:97)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.makeValid(MakeAstValidForPrettyPrintingVisitor.java:172)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:133)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:171)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-27 00:08:09.802
+!MESSAGE String index out of range: -4
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: -4
+	at org.python.pydev.shared_core.string.FastStringBuffer.delete(FastStringBuffer.java:522)
+	at org.python.pydev.parser.prettyprinterv2.WriteStateV2.dedent(WriteStateV2.java:64)
+	at org.python.pydev.parser.prettyprinterv2.PrettyPrinterV2.writeLinePart(PrettyPrinterV2.java:248)
+	at org.python.pydev.parser.prettyprinterv2.PrettyPrinterV2.print(PrettyPrinterV2.java:170)
+	at org.python.pydev.parser.visitors.NodeUtils.printAst(NodeUtils.java:2064)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:175)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:171)
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-27 00:11:42.353
+!MESSAGE Unexpected debugger command:119
+seq:233
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-27 00:11:42.358
+!MESSAGE Unexpected debugger command:119
+seq:93
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-27 00:11:48.662
+!MESSAGE Unexpected debugger command:119
+seq:99
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-27 00:11:48.667
+!MESSAGE Unexpected debugger command:119
+seq:239
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-27 00:13:53.669
+!MESSAGE Unhandled: ExtSlice[dims=[Slice[lower=null, upper=null, step=null], Index[value=Subscript[value=Name[id=mix_id, ctx=Load, reserved=false], slice=Index[value=Name[id=i, ctx=Load, reserved=false]], ctx=Load]]]]
+!STACK 0
+java.lang.RuntimeException: Unhandled: ExtSlice[dims=[Slice[lower=null, upper=null, step=null], Index[value=Subscript[value=Name[id=mix_id, ctx=Load, reserved=false], slice=Index[value=Name[id=i, ctx=Load, reserved=false]], ctx=Load]]]]
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.unhandled_node(MakeAstValidForPrettyPrintingVisitor.java:106)
+	at org.python.pydev.parser.jython.ast.VisitorBase.visitExtSlice(VisitorBase.java:351)
+	at org.python.pydev.parser.jython.ast.ExtSlice.accept(ExtSlice.java:80)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitSubscript(MakeAstValidForPrettyPrintingVisitor.java:944)
+	at org.python.pydev.parser.jython.ast.Subscript.accept(Subscript.java:87)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitAttribute(MakeAstValidForPrettyPrintingVisitor.java:611)
+	at org.python.pydev.parser.jython.ast.Attribute.accept(Attribute.java:87)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitCall(MakeAstValidForPrettyPrintingVisitor.java:621)
+	at org.python.pydev.parser.jython.ast.Call.accept(Call.java:123)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitAssign(MakeAstValidForPrettyPrintingVisitor.java:185)
+	at org.python.pydev.parser.jython.ast.Assign.accept(Assign.java:97)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitFor(MakeAstValidForPrettyPrintingVisitor.java:458)
+	at org.python.pydev.parser.jython.ast.For.accept(For.java:112)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.makeValid(MakeAstValidForPrettyPrintingVisitor.java:172)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:133)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:171)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-27 00:15:33.608
+!MESSAGE Unhandled: ExtSlice[dims=[Slice[lower=null, upper=null, step=null], Index[value=Subscript[value=Name[id=mix_id, ctx=Load, reserved=false], slice=Index[value=Name[id=i, ctx=Load, reserved=false]], ctx=Load]]]]
+!STACK 0
+java.lang.RuntimeException: Unhandled: ExtSlice[dims=[Slice[lower=null, upper=null, step=null], Index[value=Subscript[value=Name[id=mix_id, ctx=Load, reserved=false], slice=Index[value=Name[id=i, ctx=Load, reserved=false]], ctx=Load]]]]
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.unhandled_node(MakeAstValidForPrettyPrintingVisitor.java:106)
+	at org.python.pydev.parser.jython.ast.VisitorBase.visitExtSlice(VisitorBase.java:351)
+	at org.python.pydev.parser.jython.ast.ExtSlice.accept(ExtSlice.java:80)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitSubscript(MakeAstValidForPrettyPrintingVisitor.java:944)
+	at org.python.pydev.parser.jython.ast.Subscript.accept(Subscript.java:87)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitAttribute(MakeAstValidForPrettyPrintingVisitor.java:611)
+	at org.python.pydev.parser.jython.ast.Attribute.accept(Attribute.java:87)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitCall(MakeAstValidForPrettyPrintingVisitor.java:621)
+	at org.python.pydev.parser.jython.ast.Call.accept(Call.java:123)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitAssign(MakeAstValidForPrettyPrintingVisitor.java:185)
+	at org.python.pydev.parser.jython.ast.Assign.accept(Assign.java:97)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.makeValid(MakeAstValidForPrettyPrintingVisitor.java:172)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:133)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:171)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-27 00:15:33.612
+!MESSAGE String index out of range: -4
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: -4
+	at org.python.pydev.shared_core.string.FastStringBuffer.delete(FastStringBuffer.java:522)
+	at org.python.pydev.parser.prettyprinterv2.WriteStateV2.dedent(WriteStateV2.java:64)
+	at org.python.pydev.parser.prettyprinterv2.PrettyPrinterV2.writeLinePart(PrettyPrinterV2.java:248)
+	at org.python.pydev.parser.prettyprinterv2.PrettyPrinterV2.print(PrettyPrinterV2.java:170)
+	at org.python.pydev.parser.visitors.NodeUtils.printAst(NodeUtils.java:2064)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:175)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:171)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-27 00:16:05.496
+!MESSAGE Unhandled: ExtSlice[dims=[Slice[lower=null, upper=null, step=null], Index[value=Subscript[value=Name[id=mix_id, ctx=Load, reserved=false], slice=Index[value=Name[id=i, ctx=Load, reserved=false]], ctx=Load]]]]
+!STACK 0
+java.lang.RuntimeException: Unhandled: ExtSlice[dims=[Slice[lower=null, upper=null, step=null], Index[value=Subscript[value=Name[id=mix_id, ctx=Load, reserved=false], slice=Index[value=Name[id=i, ctx=Load, reserved=false]], ctx=Load]]]]
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.unhandled_node(MakeAstValidForPrettyPrintingVisitor.java:106)
+	at org.python.pydev.parser.jython.ast.VisitorBase.visitExtSlice(VisitorBase.java:351)
+	at org.python.pydev.parser.jython.ast.ExtSlice.accept(ExtSlice.java:80)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitSubscript(MakeAstValidForPrettyPrintingVisitor.java:944)
+	at org.python.pydev.parser.jython.ast.Subscript.accept(Subscript.java:87)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitAttribute(MakeAstValidForPrettyPrintingVisitor.java:611)
+	at org.python.pydev.parser.jython.ast.Attribute.accept(Attribute.java:87)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitCall(MakeAstValidForPrettyPrintingVisitor.java:621)
+	at org.python.pydev.parser.jython.ast.Call.accept(Call.java:123)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitAssign(MakeAstValidForPrettyPrintingVisitor.java:185)
+	at org.python.pydev.parser.jython.ast.Assign.accept(Assign.java:97)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.makeValid(MakeAstValidForPrettyPrintingVisitor.java:172)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:133)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:171)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-27 00:16:05.509
+!MESSAGE String index out of range: -4
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: -4
+	at org.python.pydev.shared_core.string.FastStringBuffer.delete(FastStringBuffer.java:522)
+	at org.python.pydev.parser.prettyprinterv2.WriteStateV2.dedent(WriteStateV2.java:64)
+	at org.python.pydev.parser.prettyprinterv2.PrettyPrinterV2.writeLinePart(PrettyPrinterV2.java:248)
+	at org.python.pydev.parser.prettyprinterv2.PrettyPrinterV2.print(PrettyPrinterV2.java:170)
+	at org.python.pydev.parser.visitors.NodeUtils.printAst(NodeUtils.java:2064)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:175)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:171)
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-27 00:16:40.490
+!MESSAGE Unexpected debugger command:119
+seq:67
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-27 00:17:35.591
+!MESSAGE Unhandled: ExtSlice[dims=[Slice[lower=null, upper=null, step=null], Index[value=Subscript[value=Name[id=mix_id, ctx=Load, reserved=false], slice=Index[value=Name[id=i, ctx=Load, reserved=false]], ctx=Load]]]]
+!STACK 0
+java.lang.RuntimeException: Unhandled: ExtSlice[dims=[Slice[lower=null, upper=null, step=null], Index[value=Subscript[value=Name[id=mix_id, ctx=Load, reserved=false], slice=Index[value=Name[id=i, ctx=Load, reserved=false]], ctx=Load]]]]
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.unhandled_node(MakeAstValidForPrettyPrintingVisitor.java:106)
+	at org.python.pydev.parser.jython.ast.VisitorBase.visitExtSlice(VisitorBase.java:351)
+	at org.python.pydev.parser.jython.ast.ExtSlice.accept(ExtSlice.java:80)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitSubscript(MakeAstValidForPrettyPrintingVisitor.java:944)
+	at org.python.pydev.parser.jython.ast.Subscript.accept(Subscript.java:87)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitAttribute(MakeAstValidForPrettyPrintingVisitor.java:611)
+	at org.python.pydev.parser.jython.ast.Attribute.accept(Attribute.java:87)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitCall(MakeAstValidForPrettyPrintingVisitor.java:621)
+	at org.python.pydev.parser.jython.ast.Call.accept(Call.java:123)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitAssign(MakeAstValidForPrettyPrintingVisitor.java:185)
+	at org.python.pydev.parser.jython.ast.Assign.accept(Assign.java:97)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitFor(MakeAstValidForPrettyPrintingVisitor.java:458)
+	at org.python.pydev.parser.jython.ast.For.accept(For.java:112)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.makeValid(MakeAstValidForPrettyPrintingVisitor.java:172)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:133)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:171)
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-27 00:20:45.809
+!MESSAGE Unexpected debugger command:119
+seq:247
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-27 00:22:51.738
+!MESSAGE Unexpected debugger command:119
+seq:119
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-27 00:22:51.836
+!MESSAGE Did not expect to find item below node: Assign[targets=[Name[id=mix_id, ctx=Store, reserved=false]], value=null, type=null] (module: 9_1 file: C:\Users\BAO\Documents\PyWorkspace\Chap9\9_1.py row: 42).
+!STACK 0
+java.lang.RuntimeException: Did not expect to find item below node: Assign[targets=[Name[id=mix_id, ctx=Store, reserved=false]], value=null, type=null] (module: 9_1 file: C:\Users\BAO\Documents\PyWorkspace\Chap9\9_1.py row: 42).
+	at org.python.pydev.core.log.Log.log(Log.java:33)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.endScopesInStack(FastDefinitionsParser.java:626)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.handleNewLine(FastDefinitionsParser.java:410)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.extractBody(FastDefinitionsParser.java:259)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.parse(FastDefinitionsParser.java:693)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.parse(FastDefinitionsParser.java:687)
+	at org.python.pydev.parser.fastparser.FastDefinitionsParser.parse(FastDefinitionsParser.java:678)
+	at com.python.pydev.analysis.additionalinfo.builders.AnalysisBuilderVisitor$1.call(AnalysisBuilderVisitor.java:116)
+	at com.python.pydev.analysis.additionalinfo.builders.AnalysisBuilderVisitor$1.call(AnalysisBuilderVisitor.java:1)
+	at com.python.pydev.analysis.additionalinfo.builders.AnalysisBuilderRunnable.<init>(AnalysisBuilderRunnable.java:170)
+	at com.python.pydev.analysis.additionalinfo.builders.AnalysisBuilderRunnableFactory.createRunnable(AnalysisBuilderRunnableFactory.java:222)
+	at com.python.pydev.analysis.additionalinfo.builders.AnalysisBuilderVisitor.doVisitChangedResource(AnalysisBuilderVisitor.java:181)
+	at com.python.pydev.analysis.additionalinfo.builders.AnalysisBuilderVisitor.visitChangedResource(AnalysisBuilderVisitor.java:130)
+	at com.python.pydev.analysis.additionalinfo.builders.AnalysisBuilderVisitor.visitChangedResource(AnalysisBuilderVisitor.java:45)
+	at org.python.pydev.ast.builder.PydevGrouperVisitor.visitWith(PydevGrouperVisitor.java:115)
+	at org.python.pydev.ast.builder.PydevGrouperVisitor.visitChangedResource(PydevGrouperVisitor.java:166)
+	at org.python.pydev.ast.builder.PydevGrouperVisitor.finishDelayedVisits(PydevGrouperVisitor.java:190)
+	at org.python.pydev.ast.builder.PyDevBuilder.build(PyDevBuilder.java:130)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-27 00:22:58.361
+!MESSAGE Unexpected debugger command:119
+seq:133
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-27 00:23:19.449
+!MESSAGE Unexpected debugger command:119
+seq:147
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-27 00:24:49.578
+!MESSAGE Unexpected debugger command:119
+seq:177
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-27 00:25:53.694
+!MESSAGE Unexpected debugger command:119
+seq:203
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-27 00:26:14.457
+!MESSAGE Unexpected debugger command:119
+seq:217
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-27 00:26:58.641
+!MESSAGE Unexpected debugger command:119
+seq:231
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-27 00:27:01.483
+!MESSAGE Unexpected debugger command:119
+seq:237
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-27 00:27:38.740
+!MESSAGE Unexpected debugger command:119
+seq:251
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.debug 2 2 2019-03-27 00:27:49.413
+!MESSAGE Unexpected debugger command:119
+seq:261
+payload:<xml><reloaded ok="False"></reloaded></xml>
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-27 00:30:05.133
+!MESSAGE Unhandled: ExtSlice[dims=[Index[value=Num[n=0, type=Int, num=0]], Index[value=Subscript[value=Name[id=mix_id, ctx=Load, reserved=false], slice=Index[value=Name[id=i, ctx=Load, reserved=false]], ctx=Load]]]]
+!STACK 0
+java.lang.RuntimeException: Unhandled: ExtSlice[dims=[Index[value=Num[n=0, type=Int, num=0]], Index[value=Subscript[value=Name[id=mix_id, ctx=Load, reserved=false], slice=Index[value=Name[id=i, ctx=Load, reserved=false]], ctx=Load]]]]
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.unhandled_node(MakeAstValidForPrettyPrintingVisitor.java:106)
+	at org.python.pydev.parser.jython.ast.VisitorBase.visitExtSlice(VisitorBase.java:351)
+	at org.python.pydev.parser.jython.ast.ExtSlice.accept(ExtSlice.java:80)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitSubscript(MakeAstValidForPrettyPrintingVisitor.java:944)
+	at org.python.pydev.parser.jython.ast.Subscript.accept(Subscript.java:87)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitAssign(MakeAstValidForPrettyPrintingVisitor.java:185)
+	at org.python.pydev.parser.jython.ast.Assign.accept(Assign.java:97)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.makeValid(MakeAstValidForPrettyPrintingVisitor.java:172)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:133)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:171)
