@@ -9,7 +9,7 @@ from numpy.core._multiarray_umath import concatenate
 from scipy.spatial.distance import cdist
 from numpy.linalg import norm
 x = np.random.rand(1000, 1)
-Y = 4 + 3*(x) + .2*np.random.randn(1000, 1)
+Y = 4 + 3*(x) + .2* np.random.randn(1000, 1)
 one = np.ones((x.shape[0],1))
 X= concatenate((one,x), axis = 1)
 w = np.dot(np.linalg.pinv(X),Y)
